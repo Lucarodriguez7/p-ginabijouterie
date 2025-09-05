@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijouterie Accesorios Mar del Plata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/jpeg" href="/bamlogo.jpg">
+<!-- AOS Animations -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    AOS.init({
+      duration: 1200, // duración animación
+      once: true // solo una vez
+    });
+  });
+</script>
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="title-font text-2xl font-semibold text-amber-900">Bijouterie Accesorios Mar del Plata</a>
+            <div class="flex items-center space-x-4">
+
+                <button id="cartBtn" class="relative text-amber-900 hover:text-amber-700">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span id="cartCount" class="absolute -top-2 -right-2 bg-amber-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center hidden">0</span>
+                </button>
+                <button id="mobileMenuBtn" class="md:hidden text-amber-900">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Search -->
+        <div id="mobileSearch" class="hidden md:hidden bg-white p-4 border-t">
+            <div class="relative">
+                <input type="text" placeholder="Buscar productos..." class="w-full px-4 py-2 border border-amber-200 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-300">
+                <button class="absolute right-3 top-2 text-amber-700">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative w-full h-screen">
+    <!-- Imagen de fondo -->
+    <div class="absolute inset-0">
+        <img src="Diseño sin título.png" alt="Hero Image" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-b from-white/40 to-amber-50/40"></div>
+    </div>
+
+    <!-- Decoración de hoja -->
+    <div class="leaf-decoration absolute top-20 left-10 transform rotate-12 z-10">
+        <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#d4af37">
+            <path d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3Z" stroke-width="1"/>
+            <path d="M12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7Z" stroke-width="1"/>
+        </svg>
+    </div>
+
+    <!-- Contenido -->
+    <div class="container mx-auto px-4 h-full flex flex-col md:flex-row items-center justify-center relative z-20">
+        <div class="md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">Todo lo que necesitas para complementar tu estilo</h1>
+            <p class="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">Descubre nuestra colección de accesorios diseñados para realzar tu estilo con distinción.</p>
+            <div class="flex justify-center md:justify-start space-x-4">
+                <a href="#catalogo" class="bg-amber-800 text-white px-6 py-3 rounded hover:bg-amber-700 transition duration-300">Ver Colección</a>
+             <button id="openDestacadosBtn" 
+   class="border border-amber-800 text-amber-800 px-6 py-3 rounded hover:bg-amber-50 transition duration-300">
+   Más Vendidos
+</button>
+            </div>
+        </div>
+
+        <!-- Bloque lateral opcional -->
+        <div class="md:w-1/2 relative">
+            
+                
+                    <div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="nosotros" class="py-20 bg-gradient-to-b from-amber-50 to-white">
+  <div class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Imagen / Ilustración -->
+    <div class="md:w-1/2 flex justify-center" data-aos="fade-right">
+      <img src="bamlogo.jpg" alt="Bijouterie Accesorios Mar del Plata" class="rounded-2xl shadow-lg max-w-sm">
+    </div>
+
+    <!-- Texto -->
+    <div class="md:w-1/2 text-center md:text-left" data-aos="fade-left">
+      <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-6">Sobre Nosotros</h2>
+      <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+        En <span class="font-semibold">Bijouterie Accesorios Mar del Plata</span> creemos que cada accesorio cuenta una historia.  
+        Nos dedicamos a ofrecer piezas únicas y modernas que complementan tu estilo y reflejan tu personalidad.  
+        Nuestro compromiso es brindar calidad, tendencias y un toque especial en cada detalle.
+      </p>
+      <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+        Más que accesorios, creamos experiencias que realzan tu día a día ✨
+      </p>
+      <a href="#catalogo" class="inline-block bg-amber-800 text-white px-6 py-3 rounded-full shadow-md hover:bg-amber-700 transition duration-300">
+        Conocé nuestra colección
+      </a>
+    </div>
+  </div>
+</section>
+
+    <!-- Product Catalog -->
+    <section id="catalogo" class="py-16 px-4 texture-bg">
+        <div class="container mx-auto">
+            <h2 class="title-font text-3xl font-semibold text-center text-amber-900 mb-12">Nuestra Colección</h2>
+            
+            <!-- Filters -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
+                <div class="w-full md:w-auto">
+                    <div class="relative inline-block w-full md:w-48">
+                        <select id="categoryFilter" class="block appearance-none w-full bg-white border border-amber-200 text-amber-900 py-2 px-4 pr-8 rounded-full leading-tight focus:outline-none focus:ring-2 focus:ring-amber-300">
+                            <option value="all">Todas las categorías</option>
+                            <option value="Acero quirurgico">Acero quirurgico</option>
+                            <option value="Accesorios para el pelo">Accesorios para el pelo</option>
+                            <option value="Marroquineria">Marroquinería</option>
+                            <option value="perfumes">Perfumes</option>
+                            <option value="relojeria">Relojería</option>
+                            <option value="Lentes de sol">Lentes de sol</option>
+                            <option value="Varios">Varios</option>
+                            <option value="broches">Broches</option>
+                            <option value="Collares">Collares</option>
+                            <option value="Anillos">Anillos</option>
+                            <option value="Piercing">Piercing</option>
+                            <option value="Aros">Aros</option>
+
+
+                            
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-amber-700">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-64 relative">
+                    <input type="text" id="searchInput" placeholder="Buscar productos..." class="w-full px-4 py-2 border border-amber-200 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-300">
+                    <button class="absolute right-3 top-2 text-amber-700">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Products Grid -->
+            <div id="productsContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div id="cartOverlay" class="fixed inset-0 z-50 cart-overlay hidden"></div>
+    <div id="cartSidebar" class="cart-slide fixed top-0 right-0 h-full w-full sm:w-96 bg-white shadow-lg z-50 transform translate-x-full">
+        <div class="h-full flex flex-col">
+            <div class="p-4 border-b flex justify-between items-center">
+                <h3 class="title-font text-xl font-semibold text-amber-900">Tu Carrito</h3>
+                <button id="closeCartBtn" class="text-amber-700 hover:text-amber-900">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div id="cartItems" class="flex-grow overflow-y-auto p-4">
+                <!-- Cart items will be loaded here -->
+                <div class="text-center py-8 text-amber-700">
+                    <i class="fas fa-shopping-bag text-4xl mb-2"></i>
+                    <p>Tu carrito está vacío</p>
+                </div>
+            </div>
+            
+            <div class="p-4 border-t">
+                <div class="flex justify-between mb-4">
+                    <span class="font-medium">Total:</span>
+                    <span id="cartTotal" class="font-semibold">$0</span>
+                </div>
+                
+                <form id="checkoutForm" class="space-y-4">
+                    <div>
+                        <input type="text" id="customerName" placeholder="Tu nombre" required class="w-full px-4 py-2 border border-amber-200 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-300">
+                    </div>
+                    <div>
+                        <textarea id="customerAddress" placeholder="Dirección de envío" required class="w-full px-4 py-2 border border-amber-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-300"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-amber-700 hover:bg-amber-600 text-white font-medium py-3 px-4 rounded-full transition duration-300">
+                        Finalizar pedido por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-amber-50 py-12 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="title-font text-2xl font-semibold mb-4">Bijouterie Accesorios Mar del plata</h3>
+                    <p class="max-w-xs">Accesorios únicos hechos con amor y dedicación para complementar tu estilo.</p>
+                </div>
+                
+                <div class="mb-6 md:mb-0">
+                    <h4 class="title-font text-lg font-semibold mb-3">Contacto</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://wa.me/5492236246400" class="flex items-center hover:text-amber-200"><i class="fab fa-whatsapp mr-2"></i> +5492236246400</a></li>
+                        <li><a href="https://www.instagram.com/bijouterieaccesoriosmdq/" class="flex items-center hover:text-amber-200"><i class="fab fa-instagram mr-2"></i> @bijouterieaccesoriosmdq</a></li>
+                        
+                </div>
+                
+                <div>
+                    <h4 class="title-font text-lg font-semibold mb-3">Horario</h4>
+                    <p>Lunes a Viernes: 10-18hs</p>
+                    <p>Sábados: 10-14hs</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-amber-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2025 Mi Bijouterie. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+let products = []; // se llenará con fetch
+
+// Cargar productos desde JSON
+async function loadProducts() {
+    try {
+        const response = await fetch('./productos.json');
+        products = await response.json(); 
+        displayProducts(products);
+        init(); // ahora sí que todo está cargado
+    } catch (error) {
+        console.error('Error al cargar los productos:', error);
+    }
+}
+
+
+document.addEventListener('DOMContentLoaded', loadProducts);
+
+// Cart
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// DOM Elements
+const productsContainer = document.getElementById('productsContainer');
+const cartBtn = document.getElementById('cartBtn');
+const closeCartBtn = document.getElementById('closeCartBtn');
+const cartOverlay = document.getElementById('cartOverlay');
+const cartSidebar = document.getElementById('cartSidebar');
+const cartItems = document.getElementById('cartItems');
+const cartTotal = document.getElementById('cartTotal');
+const cartCount = document.getElementById('cartCount');
+const checkoutForm = document.getElementById('checkoutForm');
+const categoryFilter = document.getElementById('categoryFilter');
+const searchInput = document.getElementById('searchInput');
+const searchBtn = document.getElementById('searchBtn');
+const mobileSearch = document.getElementById('mobileSearch');
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+
+// Display products
+function displayProducts(productsToDisplay = products) {
+    productsContainer.innerHTML = '';
+
+    productsToDisplay.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.className = 'product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300';
+
+        // Imagen inicial
+        let initialImage = product.image || (product.images ? product.images[0] : '');
+        let minQty = product.minQuantity || 1;
+        let quantityValue = minQty;
+
+        // HTML de variantes si existen
+        let variantSelectHTML = '';
+        if (product.variants) {
+            variantSelectHTML = `
+                <div class="flex items-center mb-2">
+                    <label class="mr-2 text-sm text-amber-900">Color:</label>
+                    <select class="variant-select border rounded px-2 py-1 w-32" data-id="${product.id}">
+                        ${product.variants.map(v => `<option value="${v.id}">${v.color}</option>`).join('')}
+                    </select>
+                </div>
+            `;
+        }
+
+        // HTML de carrusel si hay varias imágenes
+       let carouselHTML = '';
+if (product.images && product.images.length > 1) {
+    carouselHTML = `
+        <div class="relative h-48 overflow-hidden">
+            <img src="${product.images[0]}" alt="${product.name}" 
+                 class="absolute h-full w-full object-cover active-image" 
+                 data-id="${product.id}" data-index="0">
+            
+            <!-- Flecha izquierda -->
+            <button class="prev absolute top-1/2 left-2 transform -translate-y-1/2 
+                           bg-white/70 hover:bg-white rounded-full p-2 shadow" 
+                    data-product="${product.id}">
+                <i class="fas fa-chevron-left text-amber-800"></i>
+            </button>
+            
+            <!-- Flecha derecha -->
+            <button class="next absolute top-1/2 right-2 transform -translate-y-1/2 
+                           bg-white/70 hover:bg-white rounded-full p-2 shadow" 
+                    data-product="${product.id}">
+                <i class="fas fa-chevron-right text-amber-800"></i>
+            </button>
+        </div>
+    `;
+} else {
+    carouselHTML = `
+        <div class="relative pb-3/4 h-48">
+            <img src="${initialImage}" alt="${product.name}" 
+                 class="absolute h-full w-full object-cover product-main-image" 
+                 data-id="${product.id}">
+        </div>
+    `;
+}
+
+        productCard.innerHTML = `
+            ${carouselHTML}
+            <div class="p-4">
+                <h3 class="font-medium text-lg text-amber-900 mb-1">${product.name}</h3>
+                <p class="text-amber-700 text-sm mb-3">${product.description}</p>
+                ${variantSelectHTML}
+                <div class="flex items-center mb-2">
+                    <label class="mr-2 text-sm text-amber-900">Cantidad:</label>
+                    <input type="number" class="quantity-input border rounded px-2 py-1 w-20" 
+                           data-id="${product.id}" 
+                           value="${quantityValue}" 
+                           min="${minQty}">
+                </div>
+                
+                <div class="flex justify-between items-center">
+                    <span class="font-semibold text-amber-900 price-display" id="price-${product.id}">
+                        $${(product.price * quantityValue).toLocaleString()}
+                    </span>
+                    <button class="add-to-cart bg-amber-100 hover:bg-amber-200 text-amber-900 py-1 px-3 rounded-full text-sm transition duration-300" data-id="${product.id}">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        `;
+        productsContainer.appendChild(productCard);
+    });
+    // Carrusel con flechas
+document.querySelectorAll('.prev, .next').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        const productId = e.currentTarget.dataset.product;
+        const product = products.find(p => p.id == productId);
+        const imgEl = document.querySelector(`img.active-image[data-id="${productId}"]`);
+        let currentIndex = parseInt(imgEl.dataset.index);
+
+        if (e.currentTarget.classList.contains('prev')) {
+            currentIndex = (currentIndex - 1 + product.images.length) % product.images.length;
+        } else {
+            currentIndex = (currentIndex + 1) % product.images.length;
+        }
+
+        imgEl.src = product.images[currentIndex];
+        imgEl.dataset.index = currentIndex;
+    });
+});
+
+    // Carrusel: cambiar imagen
+    document.querySelectorAll('.thumb').forEach(thumb => {
+        thumb.addEventListener('click', (e) => {
+            const productId = e.target.dataset.product;
+            const index = parseInt(e.target.dataset.index);
+            const product = products.find(p => p.id == productId);
+            const activeImage = document.querySelector(`img.active-image[data-id="${productId}"]`);
+            if (activeImage) activeImage.src = product.images[index];
+
+            document.querySelectorAll(`.thumb[data-product="${productId}"]`).forEach(t => t.classList.remove('bg-amber-700'));
+            e.target.classList.add('bg-amber-700');
+        });
+    });
+    // Cambiar variante
+    document.querySelectorAll('.variant-select').forEach(select => {
+        select.addEventListener('change', (e) => {
+            const productId = parseInt(e.target.dataset.id);
+            const selectedVariantId = parseInt(e.target.value);
+            const product = products.find(p => p.id === productId);
+            const variant = product.variants.find(v => v.id === selectedVariantId);
+
+            // Cambiar imagen si existe
+            const img = document.querySelector(`img.product-main-image[data-id="${productId}"]`) || 
+                        document.querySelector(`img.active-image[data-id="${productId}"]`);
+            if (img) img.src = variant.image;
+
+            // Cambiar mínimo y cantidad
+            const qtyInput = document.querySelector(`input.quantity-input[data-id="${productId}"]`);
+            qtyInput.min = variant.minQuantity;
+            if (parseInt(qtyInput.value) < variant.minQuantity) qtyInput.value = variant.minQuantity;
+
+            // Actualizar precio
+            const priceDisplay = document.getElementById(`price-${productId}`);
+            priceDisplay.textContent = `$${(product.price * qtyInput.value).toLocaleString()}`;
+        });
+    });
+
+    // Actualizar precio dinámico al cambiar cantidad
+    document.querySelectorAll('.quantity-input').forEach(input => {
+        input.addEventListener('input', (e) => {
+            const productId = parseInt(e.target.dataset.id);
+            const product = products.find(p => p.id === productId);
+
+            let minQty = product.minQuantity || 1;
+            if (product.variants) {
+                const selectedVariantId = parseInt(document.querySelector(`select.variant-select[data-id="${productId}"]`).value);
+                const variant = product.variants.find(v => v.id === selectedVariantId);
+                minQty = variant.minQuantity;
+            }
+
+            let quantity = parseInt(e.target.value);
+            if (isNaN(quantity) || quantity < minQty) {
+                quantity = minQty;
+                e.target.value = minQty;
+            }
+
+            const priceDisplay = document.getElementById(`price-${productId}`);
+            priceDisplay.textContent = `$${(product.price * quantity).toLocaleString()}`;
+        });
+    });
+
+    // Botones agregar al carrito
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', (e) => {
+            const productId = parseInt(e.target.dataset.id);
+            const quantityInput = document.querySelector(`.quantity-input[data-id="${productId}"]`);
+            let quantity = parseInt(quantityInput.value);
+            const product = products.find(p => p.id === productId);
+
+            let variantId = null;
+            if (product.variants) {
+                variantId = parseInt(document.querySelector(`select.variant-select[data-id="${productId}"]`).value);
+                const variant = product.variants.find(v => v.id === variantId);
+                if (isNaN(quantity) || quantity < variant.minQuantity) quantity = variant.minQuantity;
+            } else {
+                if (isNaN(quantity) || quantity < product.minQuantity) quantity = product.minQuantity || 1;
+            }
+
+            addToCart(productId, quantity, variantId);
+        });
+    });
+}
+
+// Add to cart
+function addToCart(productId, quantity, variantId = null) {
+    const product = products.find(p => p.id === productId);
+    let name = product.name;
+    let price = product.price;
+
+    if (variantId) {
+        const variant = product.variants.find(v => v.id === variantId);
+        name += ` - ${variant.color}`;
+    }
+
+    const existingItem = cart.find(item => item.id === productId && item.variantId === variantId);
+    if (existingItem) {
+        existingItem.quantity += quantity;
+    } else {
+        cart.push({
+            id: product.id,
+            variantId: variantId,
+            name: name,
+            price: price,
+            quantity: quantity
+        });
+    }
+
+    updateCart();
+    showCartNotification();
+}
+
+// Update cart
+function updateCart() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    cartCount.textContent = totalItems;
+    cartCount.classList.toggle('hidden', totalItems === 0);
+
+    if (cart.length === 0) {
+        cartItems.innerHTML = `
+            <div class="text-center py-8 text-amber-700">
+                <i class="fas fa-shopping-bag text-4xl mb-2"></i>
+                <p>Tu carrito está vacío</p>
+            </div>
+        `;
+        cartTotal.textContent = '$0';
+    } else {
+        cartItems.innerHTML = '';
+        let total = 0;
+
+        cart.forEach(item => {
+            total += item.price * item.quantity;
+
+            const cartItem = document.createElement('div');
+            cartItem.className = 'flex justify-between items-center py-3 border-b border-amber-100';
+            cartItem.innerHTML = `
+                <div>
+                    <h4 class="font-medium">${item.name}</h4>
+                    <p class="text-sm text-amber-700">$${item.price.toLocaleString()} x ${item.quantity}</p>
+                </div>
+                <div class="flex items-center">
+                    <span class="font-semibold mr-4">$${(item.price * item.quantity).toLocaleString()}</span>
+                    <button class="remove-item text-amber-700 hover:text-amber-900" data-id="${item.id}" data-variant="${item.variantId || ''}">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            `;
+            cartItems.appendChild(cartItem);
+        });
+
+        cartTotal.textContent = `$${total.toLocaleString()}`;
+
+        document.querySelectorAll('.remove-item').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const productId = parseInt(e.target.closest('button').dataset.id);
+                const variantId = e.target.closest('button').dataset.variant ? parseInt(e.target.closest('button').dataset.variant) : null;
+                removeFromCart(productId, variantId);
+            });
+        });
+    }
+}
+
+function removeFromCart(productId, variantId = null) {
+    cart = cart.filter(item => !(item.id === productId && item.variantId === variantId));
+    updateCart();
+}
+
+function showCartNotification() {
+    const notification = document.createElement('div');
+    notification.className = 'fixed bottom-4 right-4 bg-amber-700 text-white px-4 py-2 rounded-lg shadow-lg animate-bounce';
+    notification.textContent = 'Producto agregado al carrito';
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+        notification.classList.add('opacity-0', 'transition-opacity', 'duration-300');
+        setTimeout(() => notification.remove(), 300);
+    }, 2000);
+}
+
+// Filtro
+function filterProducts() {
+    const category = categoryFilter.value;
+    const searchTerm = searchInput.value.toLowerCase();
+
+    let filteredProducts = products;
+
+    if (category !== 'all') {
+        filteredProducts = filteredProducts.filter(product => product.category === category);
+    }
+
+    if (searchTerm) {
+        filteredProducts = filteredProducts.filter(product => 
+            product.name.toLowerCase().includes(searchTerm) || 
+            product.description.toLowerCase().includes(searchTerm)
+        );
+    }
+
+    displayProducts(filteredProducts);
+}
+
+
+// Init
+function init() {
+    displayProducts();
+    updateCart();
+
+    cartBtn.addEventListener('click', () => {
+        cartOverlay.classList.remove('hidden');
+        cartSidebar.classList.remove('translate-x-full');
+        document.body.style.overflow = 'hidden';
+    });
+
+    closeCartBtn.addEventListener('click', closeCart);
+    cartOverlay.addEventListener('click', closeCart);
+
+    function closeCart() {
+        cartOverlay.classList.add('hidden');
+        cartSidebar.classList.add('translate-x-full');
+        document.body.style.overflow = 'auto';
+    }
+
+    checkoutForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        if (cart.length === 0) {
+            alert('Tu carrito está vacío');
+            return;
+        }
+
+        const name = document.getElementById('customerName').value;
+        const address = document.getElementById('customerAddress').value;
+
+        let message = `Hola, quiero hacer un pedido:\n\n*Nombre:* ${name}\n*Dirección:* ${address}\n*Pedido:*\n`;
+
+        let total = 0;
+        cart.forEach(item => {
+            message += `- ${item.name} (${item.quantity} x $${item.price}) = $${item.quantity * item.price}\n`;
+            total += item.quantity * item.price;
+        });
+
+        message += `\n*Total:* $${total}\n\n¡Gracias!`;
+
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/5492236246400?text=${encodedMessage}`, '_blank');
+
+        checkoutForm.reset();
+        cart = [];
+        updateCart();
+        closeCart();
+    });
+
+    categoryFilter.addEventListener('change', filterProducts);
+    searchInput.addEventListener('input', filterProducts);
+
+    searchBtn.addEventListener('click', () => {
+        mobileSearch.classList.toggle('hidden');
+    });
+
+    mobileMenuBtn.addEventListener('click', () => {
+        alert('Menú móvil - Podrías agregar más opciones aquí');
+    });
+}
+
+// HTML de variantes si existen
+
+</script>
+
+
+
+
+<!-- Modal Más Vendidos -->
+<div id="destacadosModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="bg-white rounded-2xl shadow-xl max-w-3xl w-full p-6 relative">
+    
+    <!-- Botón cerrar -->
+    <button id="closeDestacadosBtn" class="absolute top-3 right-3 text-amber-800 hover:text-amber-600 text-2xl">
+      <i class="fas fa-times"></i>
+    </button>
+    
+    <!-- Título -->
+    <h2 class="text-2xl font-bold text-amber-900 mb-6 text-center">✨ Nuestros Más Vendidos ✨</h2>
+    
+    <!-- Grid de productos -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Producto 1 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="cadenacondije.jpeg" alt="Producto 1" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-amber-900">Cadena con dije</h3>
+        <p class="text-gray-600">$2700</p>
+      </div>
+      
+      <!-- Producto 2 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="arosdefiesta.jpeg" alt="Producto 2" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-amber-900">Aros de fiesta</h3>
+        <p class="text-gray-600">$3600</p>
+      </div>
+      
+      <!-- Producto 3 -->
+      <div class="border rounded-xl p-4 shadow hover:shadow-lg transition">
+        <img src="llavero3personas.jpeg" alt="Producto 3" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-amber-900">Llavero para tres personas</h3>
+        <p class="text-gray-600">$3500</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  const openBtn = document.getElementById("openDestacadosBtn");
+  const modal = document.getElementById("destacadosModal");
+  const closeBtn = document.getElementById("closeDestacadosBtn");
+
+  // abrir modal
+  openBtn.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+  });
+
+  // cerrar con el botón
+  closeBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+  });
+
+  // cerrar clickeando afuera del modal
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.add("hidden");
+    }
+  });
+</script>
+
+</body>
+</html>

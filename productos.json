@@ -1,0 +1,2311 @@
+[
+  {
+    "id": 1,
+    "name": "Bull acero",
+    "price": 450,
+    "category": "Piercing",
+    "images": [
+      "piercing1.jpg",
+      "piercing22.jpeg",
+      "piercing23.jpeg",
+      "piercing24.jpeg"
+    ],
+    "minQuantity": 6,
+    "description": "Piercing Bull de acero quirúrgico, ideal para septum, oreja u otras perforaciones. "
+
+  },
+  {
+    "id": 2,
+    "name": "Barra transversal",
+    "price": 750,
+    "category": "Piercing",
+    "images": [
+      "piercing3.jpeg",
+      "piercing4.jpeg",
+      "piercing5.jpeg",
+      "piercing6.jpeg",
+      "piercing7.jpeg"
+    ],
+    "minQuantity": 6,
+    "description": "Barra transversal de acero quirúrgico 316L, hipoalergénica, resistente y con bolitas desenroscables."
+  },
+  {
+    "id": 3,
+    "name": "Piercing de lengua",
+    "price": 600,
+    "category": "Piercing",
+    "images": [
+      "piercing17.jpeg",
+      "piercing19.jpeg",
+      "piercing18.jpeg"
+    ],
+    "minQuantity": 6,
+    "description": "Piercing de lengua en acero quirúrgico 316L, hipoalergénico, resistente y con bolitas desenroscables para fácil colocación. Seguro y cómodo para uso diario."
+  },
+  {
+    "id": 4,
+    "name": "Piercing ombligo",
+    "price": 950,
+    "category": "Piercing",
+    "images": [
+      "piercing8.jpeg",
+      "piercing9.jpeg",
+      "piercing10.jpeg",
+      "piercing11.jpeg",
+      "piercing12.jpeg",
+      "piercing13.jpeg",
+      "piercing14.jpeg"
+    ],
+    "minQuantity": 6,
+    "description": "Piercing de ombligo en acero quirúrgico 316L, hipoalergénico, resistente al agua y con brillo duradero. Cómodo y seguro para uso diario."
+  },
+  {
+    "id": 5,
+    "name": "Piercing con aro",
+    "price": 1500,
+    "category": "Piercing",
+     "images": [
+      "aros1.jpeg",
+      "aros2.jpeg",
+      "aros3.jpeg",
+      "aros4.jpeg",
+      "aros5.jpeg",
+      "aros6.jpeg",
+      "aros7.jpeg",
+      "aros8.jpeg",
+      "aros9.jpeg"
+    ],
+    "minQuantity": 6,
+    "description": "Piercing para oreja con colgante de acero quirúrgico 316L, hipoalergénico, resistente al agua y con brillo duradero. Cómodo y seguro para uso diario."
+  },
+  {
+    "id": 6,
+    "name": "Piercing para nariz",
+    "price": 250,
+    "category": "Piercing",
+    "images": [
+      "caja de nariz.jpeg",
+      "nariz2.jpeg",
+      "nariz3.jpeg"
+    ],
+     "minQuantity": 40,
+    "description": "Aro de nariz en acero quirúrgico, duradero y cómodo para tu estilo diario. Minimo 40 unidades."
+    
+  },
+  {
+    "id": 7,
+    "name": "Repuestos para piercings",
+    "price": 150,
+    "category": "Piercing",
+       "images": [
+      "repuesto.jpeg",
+      "repuesto3.jpeg",
+      "repuesto2.jpeg"
+    ],
+    "minQuantity": 20,
+    "description": "Repuestos para piercings, minimo 20 unidades."
+  },
+  {
+    "id": 8,
+    "name": "Piercing para ombligo",
+    "price":1500,
+    "category": "Piercing",
+    "image": "ombligo2.jpeg",
+    "minQuantity": 12,
+    "description": "Piercing para ombligo, cómodo para tu estilo diario. Minimo 12 unidades."
+ 
+  },
+  {
+    "id": 9,
+    "name": "Piercing para ombligo",
+    "price": 750,
+    "category": "Piercing",
+    "image": "ombligo.jpeg",
+    "minQuantity": 12,
+    "description": "Piercing para ombligo, cómodo para tu estilo diario. Minimo 12 unidades"
+  },
+  {
+    "id": 10,
+    "name": "Piercing para ombligo",
+    "price": 1700,
+    "category": "Piercing",
+    "image": "ombligo3.jpeg",
+    "minQuantity": 12,
+    "description": "Piercing para ombligo, cómodo para tu estilo diario. Minimo 12 unidades "
+  },
+  {
+    "id": 11,
+    "name": "Llavero boca y river",
+    "price": 1250,
+    "category": "Varios",
+    "image": "llaverobocariver.jpeg",
+    "description": "Llaveros de Boca y River – Resistentes, prácticos y con el escudo de tu pasión para llevar siempre con vos."
+  },
+  {
+    "id": 12,
+    "name": "Llavero para Compartir",
+    "price": 1750,
+    "category": "Varios",
+    "images": [
+      "llaverocompartir.jpeg",
+      "llaveroparados.jpeg",
+      "llavero2personas.jpeg"
+    ],
+    "description": "Anillo con diseño vintage y piedras sintéticas."
+  },
+  {
+    "id": 13,
+    "name": "Llavero de Trebol",
+    "price": 1750,
+    "category": "Varios",
+    "image": "llaverotrebor.jpeg", 
+    "description": "Lleva la suerte con vos, llavero de metal"
+  },
+  {
+    "id": 14,
+    "name": "Llavero para tres personas",
+    "price": 3500,
+    "category": "Varios",
+    "image": "llavero3personas.jpeg",
+    "description": "Llavero de acero para compartir entre tres personas."
+  },
+  {
+    "id": 15,
+    "name": "Llaveros de cuero",
+    "price": 2500,
+    "category": "Varios",
+    "image": "llaverocuero.jpeg",
+    "description": "Llaveros de cuero con diseños para llevar tus llaves con estilo."
+  },
+  {
+    "id": 16,
+    "name": "Llavero de Messi",
+    "price": 1250,
+    "category": "Varios",
+    "image": "llaveromessi.jpeg",
+    "description": "Lleva tu ídolo siempre con vos. "
+  },
+ {
+  "id": 17,
+  "name": "Terminales de trenza",
+  "price": 250,
+   "image": "trenzas1.jpeg",
+  "category": "Accesorios para el pelo",
+  "minQuantity":"12",
+  "description": "Terminales de trenza para el pelo.",
+  "variants": [
+    {
+      "id": 1701,
+      "color": "Pastel",
+      "image": "trenzas1.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 1702,
+      "color": "Negro",
+      "image": "trenzas2.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 1703,
+      "color": "Negro y blanco",
+      "image": "trenzas3.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 1704,
+      "color": "Transparente",
+      "image": "trenzas4.jpeg",
+      "minQuantity": 12
+    }
+  ]
+},
+  {
+    "id": 18,
+    "name": "Colitas negras clásicas",
+    "price": 600,
+    "category": "Accesorios para el pelo",
+    "image": "colitasnegras.jpeg",
+    "minQuantity": 6,
+    "description": "Colitas negras clásicas: resistentes, flexibles y perfectas para todo tipo de cabello. Minimo 6 unidades"
+  },
+  {
+    "id": 19,
+    "name": "Colitas de colores con strass",
+    "price": 1000,
+    "category": "Accesorios para el pelo",
+    "image": "colitasstrass.jpeg",
+    "minQuantity": 6,
+    "description": "Colitas de colores con strass: resistentes, flexibles y perfectas para todo tipo de cabello. Minimo 6 unidades"
+  },
+  {
+    "id": 20,
+    "name": "Colitas medianas",
+    "price": 35,
+    "category": "Accesorios para el pelo",
+    "image": "colitasmedianas1.jpeg",
+    "minQuantity": 50,
+    "description": "Colitas medianas: resistentes, flexibles y perfectas para todo tipo de cabello. Minimo 50 unidades",
+      "variants": [
+    {
+      "id": 1707,
+      "color": "Coloridas",
+      "image": "colitasmedianas1.jpeg",
+      "minQuantity": 50
+    },
+    {
+      "id": 1708,
+      "color": "Negro",
+      "image": "colitasmedianas3.jpeg",
+      "minQuantity": 50
+    },
+    {
+      "id": 1709,
+      "color": "Negro y blanco",
+      "image": "colitasmedianas2.jpeg",
+      "minQuantity": 50
+    }
+  ]
+},
+  
+{
+    "id": 21,
+    "name": "Cadena con dije",
+    "price": 2700,
+    "category": "Collares",
+    "image": "cadenacondije.jpeg",
+    "description": "Collar delicado con dije, perfecto para usar a diario o en ocasiones especiales."
+  },
+  {
+    "id": 22,
+    "name": "Cadena con dije acero dorado",
+    "price": 3500,
+    "category": "Collares",
+    "image": "cadenitacondijedorado.jpeg",
+    "description": "Collar color dorado con dije, perfecto para usar a diario o en ocasiones especiales."
+  },
+  {
+    "id": 23,
+    "name": "Blister de aros",
+    "price": 1500,
+    "category": "Acero quirurgico",
+    "image": "aros.jpeg",
+    "minQuantity": 12,
+    "description": "Blíster con aros elegantes, cómodos y resistentes. Mínimo 12 unidades."
+  },
+  {
+    "id": 24,
+    "name": "Set para niñas collar y pulsera.",
+    "price": 1950,
+    "category": "Varios",
+    "image": "setniña1.jpeg",
+    "description": "Aros colgantes con detalles geométricos.",
+      "variants": [
+    {
+      "id": 1707,
+      "price": 1950,
+      "color": "Set 1",
+      "image": "setniña1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1708,
+      "price": 1250,
+      "color": "Set 2",
+      "image": "Setniña2.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1709,
+      "price": 1250,
+      "color": "Set 3",
+      "image": "setniña3.jpeg",
+      "minQuantity": 1
+    }
+  ]
+  },
+  {
+    "id": 25,
+    "name": "Hebillas",
+    "price": 450,
+    "category": "Accesorios para el pelo",
+    "image": "Hebillas.jpeg",
+    "minQuantity": 5,
+    "description": "Hebillas para el pelo: resistentes, prácticas y listas para cualquier peinado."
+  },
+  {
+    "id": 26,
+    "name": "Aros de fiesta",
+    "price": 3500,
+    "category": "Varios",
+    "images":[
+      "arosdefiesta.jpeg",
+      "arosdefiesta2.jpeg"
+  
+    ],
+    "description": "Aros de fiesta: brillantes, elegantes y listos para deslumbrar."
+  },
+  {
+    "id": 27,
+    "name": "Tira de colitas",
+    "price": 1000,
+    "category": "Accesorios para el pelo",
+    "image": "tirasdecolitas.jpeg",
+    "minQuantity": 6,
+    "description": "Tira de colitas con diseño divertido y alternativo, ideal para tu estilo único. Minimo 6 unidades. "
+  },
+  {
+    "id": 28,
+    "name": "Cadena con dije de luna",
+    "price": 2500,
+    "category": "collares",
+    "images": [
+      "cadenitacondije3.jpeg",
+      "cadenitacondije2.jpeg"
+  
+    ],
+    "description": "Cadena con dije de forma lunar. Ideal para llevarlo con estilo."
+  },
+  {
+    "id": 29,
+    "name": "Cadenas compartidas",
+    "price": 5500,
+    "category": "collares",
+    "image": "cadenascompartidas.jpeg",
+    "description": "Un accesorio especial para compartir con quien más querés."
+  },
+  {
+  "id": 30,
+  "name": "Aros Trepadores",
+  "price": 1800,
+  "category": "Aros",
+  "images": ["arostrepadores.jpeg" ,"trepadores.jpeg","arostrepadorescubo.jpeg"],
+  "description": "Aros trepadores: modernos, elegantes y cómodos para realzar tu look."  
+   }  , 
+  
+  {
+    "id": 31,
+    "name": "Broches para el pelo",
+    "price": 3500,
+    "category": "broches",
+    "image": "broches.jpeg",
+    "description": "Bolsa de 100 unidades de broches de distintos colores."
+  },
+  {
+    "id": 32,
+    "name": "Blister de broches",
+    "price": 250,
+    "category": "broches",
+    "image": "broches2.jpeg",
+    "minQuantity":10,
+    "description": "Pack de 10 broches resistentes y prácticos para sujetar tu cabello. Minimo 10 unidades."
+  },
+  {
+    "id": 33,
+    "name": "Pack de 100 broches",
+    "price": 3500,
+    "category": "broches",
+    "image": "brochesx100.jpeg",
+    "description": "Pack de 100 broches resistentes y prácticos para todo tipo de peinados."
+  },
+  {
+    "id": 34,
+    "name": "Broches grandes",
+    "price": 950,
+    "category": "broches",
+    "image": "brochesgrandes.jpeg",
+    "minQuantity":12,
+    "description": "Broches grandes elegantes y firmes, perfectos para peinados con estilo."
+  },
+  {
+    "id": 35,
+    "name": "Cadena de mariposa",
+    "price": 5500,
+    "category": "collares",
+    "images": ["cadenitamariposa.jpeg",
+  "cadenitamariposa2.jpeg"],
+    "description": "Anillo ajustable en acero inoxidable."
+  },
+  {
+    "id": 36,
+    "name": "Cadena de acero quirurgico",
+    "price": 850,
+    "category": "collares",
+    "image": "cadenaacero.jpeg",
+    "minQuantity": 12,  
+    "description": "Pulsera elegante con perlas blancas."
+  },
+  {
+    "id": 37,
+    "name": "Cadena con dije de corazón.",
+    "price": 4500,
+    "category": "Collares",
+    "image": "collardecorazon.jpeg",
+    "description": "Cadena con dije de corazón, moderno y resistente de acero quirurgico. "
+  },
+  
+  {
+    "id": 38,
+    "name": "Cadena con dijes circulares",
+    "price": 4500,
+    "category": "Collares",
+    "image": "cadenacondije(1).jpeg",
+    "description": "Cadena en capas con dijes de círculos, moderno y resistente de acero quirurgico."
+  },
+  {
+    "id": 39,
+    "name": "Cadena con dijes de estrella",
+    "price": 4500,
+    "category": "Collares",
+    "image": "cadenacondije(2).jpeg",
+    "description": "Cadena con dijes en forma de estrella, moderno y resistente de acero quirurgico."
+  },
+  {
+    "id": 40,
+    "name": "Cadena con dije emoji",
+    "price": 4500,
+    "category": "Collares",
+    "image": "cadenacondije(3).jpeg",
+    "description": "Cadena con dije de emoji, moderno y resistente de acero quirurgico."
+  },
+  {
+  "id": 41,
+  "name": "Piercing para ombligo",
+  "price": 650,
+  "category": "Piercing",
+  "image": "ombligopiercing.jpeg",
+  "minQuantity":"9" ,
+  "description": "Piercing para ombligo de acero quirurgico. Minimo 9 unidades."
+},
+{
+  "id": 42,
+  "name": "Cadena con dije mariposa",
+  "price": 4500,
+  "category": "Collares",
+  "image": "cadenitacondije(4).jpeg",
+  "description": "Cadena con dije de mariposa, moderno y resistente de acero quirurgico.."
+},
+{
+  "id": 43,
+  "name": "Broches de mariposa",
+  "price": 890,
+  "category": "Broches",
+  "image": "clipspelo.jpeg",
+  "minQuantity":"12",
+  "description": "Broches para el pelo con forma de mariposa, estéticas y duraderas. Minimo 12 unidades."
+},
+{
+  "id": 44,
+  "name": "Broches de acero dorado",
+  "price": 1900,
+  "category": "Broches",
+  "minQuantity":"12",
+  "image": "brochesacerodorado.jpeg",
+  "description": "Broches de acero dorado, ideales para resaltar tu pelo. Minimo 12 unidades."
+},
+{
+  "id": 45,
+  "name": "Broches variados",
+  "price": 1900,
+  "category": "Broches",
+  "minQuantity":"12",
+  "image": "brochesvarios.jpeg",
+  "description": "Broches de distintos colores, estéticos y duraderos. Minimo 12 unidades."
+},
+{
+  "id": 46,
+  "name": "Broches de acero",
+  "price": 600,
+  "category": "Broches",
+  "image": "Brochesdeacero.jpeg",
+  "description": "Broches de acero resistentes ideales para cualquier situación. Minimo 12 unidades."
+},
+{
+  "id": 47,
+  "name": "Hebillas",
+  "price": 600,
+  "category": "Accesorios para el pelo",
+  "image": "Hebillas1.jpeg",
+  "description": "Hebillas para el pelo, diseños de corazones. Mínimo 4 unidades."
+},
+{
+  "id": 48,
+  "name": "Hebillas medianas y grandes.",
+  "price": 250,
+  "category": "Accesorios para el pelo",
+  "minQuantity": "12",
+  "image": "hebillas2.jpeg",
+  "description": "Hebillas medianas y grandes para todo tipo de cabellos. Minimo 12 unidades."
+},
+{
+  "id": 49,
+  "name": "Hebillas coloridas",
+  "price": 350,
+  "category": "Accesorios para el pelo",
+  "minQuantity": "5",
+  "image": "hebillas3.jpeg",
+  "description": "Hebillas coloridas para acompañar tu estilo. Minimo 5 unidades."
+},
+{
+  "id": 50,
+  "name": "Pompón para el pelo",
+  "price": 1000,
+  "category": "Accesorios para el pelo",
+  "minQuantity": "6",
+  "image": "pomponpelo.jpeg",
+  "description": "Pompones para lucir el pelo. Minimo 6 unidades."
+},
+{
+  "id": 51,
+  "name": "Colitas con acero dorado",
+  "price": 1900,
+  "category": "Accesorios para el pelo",
+  "image": "colitas.jpeg",
+  "description": "Colitas con diseño de acero dorado, bellas y resistenes. Precio por unidad."
+},
+{
+  "id": 52,
+  "name": "Colitas con perlas",
+  "price": 450,
+  "category": "Accesorios para el pelo",
+   "minQuantity": "12",
+  "image": "colitaperlas.jpeg",
+  "description": "Colitas con perlas, bellas y resistentes. Minimo 12 unidades."
+},
+{
+  "id": 53,
+  "name": "Paquete de colitas",
+  "price": 900,
+  "category": "Accesorios para el pelo",
+     "minQuantity": "12",
+  "image": "paquetecolitas.jpeg",
+  "description": "Paquete de 4 colitas, bellas y resistentes. Minimo 12 unidades."
+},
+{
+  "id": 54,
+  "name": "Colitas con estrellas",
+  "price": 450,
+  "category": "Accesorios para el pelo",
+  "image": "colitasnegras1.jpeg",
+   "minQuantity": 12,
+  "description": "Colitas con detalles de todo tipo. Opciones negras o coloridas. Minimo 12 unidades.",
+    "variants": [
+   { "id": 9998,
+      "price": 450,
+      "color": "negro",
+      "image": "colitasnegras1.jpeg",
+      "minQuantity": 12
+    },
+      {
+      "id": 9999,
+      "color": "Coloridas",
+      "image": "colitascoloridas.jpeg",
+      "minQuantity": 12
+    }
+    ]
+},
+{
+  "id": 55,
+  "name": "Colitas de Kuromi",
+  "price": 750,
+  "category": "Accesorios para el pelo",
+  "image": "Colitaskuromi.jpeg",
+  "minQuantity": "5",
+  "description": "Colitas del personaje Kuromi, para lucir junto el peinado. Minimo 5 unidades."
+},
+{
+  "id": 56,
+  "name": "Combo pulsera y dos colitas",
+  "price": 1000,
+  "category": "Varios",
+  "image": "combopulseraycolita.jpeg",
+  "minQuantity": "12",
+  "description": "Pulsera y dos colitas, ideal para lookearte de la mejor manera. Tira de 12 unidades."
+},
+{
+  "id": 57,
+  "name": "Aros de fiesta Dorados",
+  "price": 1200,
+  "category": "Varios",
+  "images":[
+      "arosdefiesta1.jpeg",
+      "arosdefiesta3.jpeg"
+  
+    ],
+  "minQuantity":"12",
+  "description": "Aros de fiesta para llevar con gran estilo. Minimo 12 unidades."
+
+},
+{
+  "id": 58,
+   "name": "Aros de fiesta Acero quirurgico",
+      "price": 875,
+      "color": "Acero quirurgico",
+      "image": "arosdefiesta1.jpeg",
+      "minQuantity": 12,
+        "description": "Aros de fiesta para llevar con gran estilo. Minimo 12 unidades."
+},
+{
+  "id": 59,
+  "name": "Alianzas",
+  "price": 500,
+  "category": "Anillos",
+  "image": "alianzas.jpeg",
+  "description": "Alianza de bijouterie elegante, cómoda y con acabado brillante. Minimo 6 unidades ",
+  "minQuantity":"6"
+},
+{
+  "id": 60,
+  "name": "Broches de metal",
+  "price": 750,
+  "category": "Broches",
+  "image": "brochemetal.jpeg",
+  "description": "Broche de pelo práctico y elegante, perfecto para sujetar tu cabello con estilo. Minimo 12 unidades",
+  "minQuantity":"12"
+},
+{
+  "id": 61,
+  "name": "Pulsera/Colita ",
+  "price": 50,
+  "category": "Varios",
+  "image": "goma.jpeg",
+  "description": "Accesorio versátil que combina pulsera y colita, ideal para lucir tu estilo mientras sujetas tu cabello. 100 Unidades",
+  "minQuantity":"100"
+},
+{
+  "id": 62,
+  "name": "Aritos con forma de corazón",
+  "price": 950,
+  "category": "Acero quirurgico",
+  "image": "Aritoscorazon.jpeg",
+  "description": "Blister de aritos con forma de corazón c/strass (Acero quirurgico). 12 unidades",
+  "minQuantity":"12"
+},
+{
+  "id": 63,
+  "name": "Blister de aritos fantasía",
+  "price": 14400,
+  "category": "Varios",
+  "image": "Blisterfantasia.jpeg",
+  "description": "Blister de aritos fantasía, coloridos y elegantes para todos los días. 12 Unidades."
+},
+{
+  "id": 64,
+  "name": "Blister de aritos mariposa",
+  "price": 14400,
+  "category": "Varios",
+  "image": "blistermariposa.jpeg",
+  "description": "Blister de aritos mariposa, elegantes y versátiles para todos los días. 12 Unidades."
+},
+{
+  "id": 65,
+  "name": "Blister de aritos Strass",
+  "price": 14040,
+  "category": "Varios",
+  "image": "blisterestras.jpeg",
+  "description": "Blister de aritos brillantes, elegantes y versátiles para todos los días. 36 Unidades."
+},
+{
+  "id": 66,
+  "name": "Hebillas",
+  "price": 990,
+  "category": "Accesorios para el pelo",
+  "minQuantity":"12",
+  "image": "Hebillas4.jpeg",
+  "description": "Hebillas de colores para personalizar tu pelo a gusto, 12 packs de 2 unidades cada una."
+},
+{
+  "id": 67,
+  "name": "Set de pelo",
+  "price": 5500,
+  "category": "Accesorios para el pelo",
+  "images": ["setdepelo.jpeg","setdepelo2.jpeg"],
+  "description": "Set de pelo con accesorios para realzar tu look."
+},
+{
+  "id": 68,
+  "name": "Perforadores de oreja",
+  "price": 1500,
+  "category": "Acero quirurgico",
+  "image": "perforador.jpeg",
+  "description": "Perforador de oreja de acero quirurgico (Incluye abridor)."
+},
+{
+  "id": 69,
+  "name": "Picos",
+  "price": 490,
+  "category": "Accesorios para el pelo",
+  "image": "Picos.jpeg",
+  "minQuantity":"6",
+  "description": "Pack de picos para el pelo, coloridos y prácticos para sujetar y decorar tus peinados. Minimo 6 unidades"
+},
+{
+  "id": 70,
+  "name": "Picos de corazón",
+  "price": 490,
+  "category": "Accesorios para el pelo",
+  "image": "picos2.jpeg",
+  "description": "Pack de picos para el pelo, coloridos y prácticos para sujetar y decorar tus peinados. Minimo 6 unidades"
+},
+{
+  "id": 71,
+  "name": "Picos de corazón alargados",
+  "price": 490,
+  "category": "Accesorios para el pelo",
+  "image": "picos3.jpeg",
+  "minQuantity": "6",
+  "description": "Pack de picos para el pelo, coloridos y prácticos para sujetar y decorar tus peinados. Minimo 6 unidades."
+},
+{
+  "id": 72,
+  "name": "Broches de metal dorados o plateados",
+  "price": 950,
+  "category": "Accesorios para el pelo",
+  "image": "brochemetal2.jpeg",
+  "minQuantity": "12",
+  "description": "Broches metálicos dorados y plateados, resistentes y elegantes para sujetar tu cabello. Mínimo 12 unidades."
+},
+{
+  "id": 73,
+  "name": "Pulseras de acero quirurgico",
+  "price": 4500,
+  "category": "Acero quirurgico",
+  "image": "pulseras.jpeg",
+  "minQuantity": "1",
+  "description": "Pulseras de acero quirurgico para realzar tu estilo."
+},
+{
+  "id": 74,
+  "name": "Cadenitas con dije",
+  "price": 4500,
+  "category": "Acero quirurgico",
+  "images": ["cadenitacondije4.jpeg","cadenacondij.jpeg","c.jpeg"],
+  "minQuantity": "1",
+  "description": "Cadenita con dije moderno, un accesorio ideal para completar tu look."
+},
+{
+  "id": 75,
+  "name": "Dije media medalla",
+  "price": 850,
+  "category": "Acero quirurgico",
+  "image": "a.jpeg",
+  "minQuantity": "3",
+  "description": "Dijes para acompañar tus collares con el mejor estilo. 3 unidades"
+},
+{
+  "id": 76,
+  "name": "Cadenita con dije",
+  "price": 3200,
+  "category": "Varios",
+  "images": ["cadenitacondi.jpeg","cadenita.jpeg"],
+  "minQuantity": "1",
+  "description": "Cadenita con dije moderno, un accesorio ideal para completar tu look."
+},
+{
+  "id": 77,
+  "name": "Cadena para compartir",
+  "price": 5500,
+  "category": "Acero quirurgico",
+    "images": ["compartir.jpeg","compartir2.jpeg"],
+  "minQuantity": "1",
+  "description": "Cadena para compatir con esa persona que querés."
+},
+{
+  "id": 78,
+  "name": "Llavero de cuero",
+  "price": 2500,
+  "category": "Varios",
+  "image": "cuero.jpeg",
+  "minQuantity": "1",
+  "description": "Llavero de cuero elegante y resistente, ideal para organizar tus llaves con estilo."
+},
+{
+  "id": 79,
+  "name": "Bliste de aritos acero quirurgico",
+  "price": 950,
+  "category": "Acero quirurgico",
+  "image": "ar.jpeg",
+  "minQuantity": "12",
+  "description": "Blister de aritos elegantes para uso diario. Minimo 12 unidades"
+},
+{
+  "id": 80,
+  "name": "Blister de aritos varios",
+  "price": 1200,
+  "category": "Acero quirurgico",
+  "images": ["arosacero1.jpeg", "arosacero2.jpeg"],
+  "minQuantity": "12",
+  "description": "Blister de aros de acero quirurgico color dorado o plateado. Ideal para fiestas. Minimo 12 unidades"
+},
+{
+  "id": 81,
+  "name": "Tira de mini broches",
+  "price": 990,
+  "category": "Broches",
+  "image": "br.jpeg",
+  "minQuantity": "12",
+  "description": "Tiras de mini broches para complementar con tu peinado. Minimo 12 unidades"
+},
+{
+  "id": 82,
+  "name": "Pack grande de mini broches",
+  "price": 4500,
+  "category": "Broches",
+  "image": "packgrande.jpeg",
+  "minQuantity": "1",
+  "description": "Pack de 100 mini broches de colores para complementar tu peinado."
+},
+{
+  "id": 83,
+  "name": "Broches de metal grande",
+  "price": 1500,
+  "category": "Broches",
+  "image": "brochesmeta.jpeg",
+  "minQuantity": "1",
+  "description": "Broches grandes de metal para complementar tu peinado."
+},
+{
+  "id": 84,
+  "name": "Broches de metal pequeños",
+  "price": 600,
+  "category": "Broches",
+  "images": ["broche.jpeg","broche1.jpeg","broche2.jpeg","broche3.jpeg"],
+  "minQuantity": "12",
+  "description": "Broches pequeños de metal para complementar tu peinado. Minimo 12 unidades"
+},
+{
+  "id": 85,
+  "name": "Tira de colitas",
+  "price": 990,
+  "category": "Accesorios para el pelo",
+  "images": ["co.jpeg","col.jpeg"],
+  "minQuantity": "10",
+  "description": "Tira de colitas para complementar tu peinado con estilo. 10 paquetes, 3 unidades cada uno."
+},
+{
+  "id": 86,
+  "name": "Scrunchies",
+  "price": 990,
+  "category": "Accesorios para el pelo",
+  "images": ["scrunchies.jpeg","scrunchies2.jpeg","scrunchie.jpeg","scruchi.jpeg"],
+  "minQuantity": "12",
+  "description": "Scrunchies para atar tu peinado de forma elegante. Minimo 12 unidades"
+},
+{
+  "id": 87,
+  "name": "Invisibles rubios",
+  "price": 250,
+  "category": "Accesorios para el pelo",
+  "image": "invisibles.jpeg",
+  "minQuantity": "12",
+  "description": "invisibles para cabello rubio, discretos y resistentes, perfectos para sujetar tu peinado con estilo. Minimo 12 unidades"
+},
+{
+  "id": 88,
+  "name": "Blister de aritos acero quirurgico",
+  "price": 1900,
+  "category": "Acero quirurgico",
+  "image": "bli.jpeg",
+  "minQuantity": "12",
+  "description": "Blister de aritos de acero quirurgico para llevar con estilo. 12 Unidades "
+},
+{
+  "id": 89,
+  "name": "Blister de aritos de acero quirurgico",
+  "price": 750,
+  "category": "Acero quirurgico",
+  "image": "BLIS.jpeg",
+  "minQuantity": "12",
+  "description": "Blister de aritos de acero quirurgico para llevar con estilo. 12 Unidades"
+},
+{
+  "id": 90,
+  "name": "Blister de perlas pequeñas",
+  "price": 290,
+  "category": "Acero quirurgico",
+  "image": "pearl.jpeg",
+  "minQuantity": "12",
+  "description": "Aros de perlas pequeñas elegantes y sutiles. 12 Unidades"
+},
+{
+  "id": 91,
+  "name": "Blister de perlas medianas",
+  "price": 320,
+  "category": "Acero quirurgico",
+  "image": "media.jpeg",
+  "minQuantity": "12",
+  "description": "Aros de perlas medianas elegantes y distintivas. 12 Unidades"
+},
+{
+  "id": 92,
+  "name": "Blister de perlas grandes",
+  "price": 350,
+  "category": "Acero quirurgico",
+  "image": "grande.jpeg",
+  "minQuantity": "12",
+  "description": "Aros de perlas grandes elegantes y vistosas. 12 Unidades"
+},
+{
+  "id": 93,
+  "name": "Aritos con colgante",
+  "price": 1450,
+  "category": "Acero quirurgico",
+  "image": "aritosconcolgante.jpeg",
+  "minQuantity": "12",
+  "description": "Blister de aritos de acero quirurgico con colgante, 12 Unidades"
+},
+{
+  "id": 94,
+  "name": "Tira de hebillas y agarrapelusas",
+  "price": 990,
+  "category": "Accesorios para el pelo",
+  "image": "agarrapelisa.jpeg",
+  "minQuantity": "9",
+  "description": "Tiras de hebillas y agarrapelusas de colores para combinar con tu estilo. Minimo 9 unidades"
+},
+{
+  "id": 95,
+  "name": "Vincha de tela",
+  "price": 950,
+  "category": "Accesorios para el pelo",
+  "image": "a3.jpeg",
+  "minQuantity": "6",
+  "description": "Vincha de tela suave y cómoda, ideal para sujetar tu cabello con estilo y mantenerlo en su lugar. Minimo 6 unidades "
+},
+{
+  "id": 96,
+  "name": "Trepadores con detalles de perlas",
+  "price": 1900,
+  "category": "Aros",
+ "images": ["trepaperlas2.jpeg","trepaperlas.jpeg","trepaperlas1.jpeg"],
+  "minQuantity": "1",
+  "description": "Aros trepadores elegantes con detalles de perlas, perfectos para un look sofisticado y delicado."
+},
+{
+  "id": 97,
+  "name": "Blister de aritos",
+  "price": 2200,
+  "category": "Aros",
+  "images": ["a1.jpeg","a2.jpeg"],
+  "minQuantity": "12",
+  "description": "Blister de aritos elegantes para llevar contigo. 12 unidades"
+},
+{
+  "id": 98,
+  "name": "Blister de aritos",
+  "price": 1750,
+  "category": "Aros",
+  "image": "a4.jpeg",
+  "minQuantity": "12",
+  "description": "Blister de aritos elegantes y sofisticados para llevar contigo. 12 unidades"
+},
+{
+  "id": 99,
+  "name": "Cadena de acero",
+  "price": 2500,
+  "category": "Varios",
+  "images":[ "caden.jpeg","caden1.jpeg","caden2.jpeg","caden3.jpeg"],
+  "minQuantity": "1",
+  "description": "Cadenas de acero resistentes y duraderas para complementar tu look."
+},
+{
+  "id": 100,
+  "name": "Vinchas",
+  "price": 1500,
+  "category": "Accesorios para el pelo",
+  "image": "vinch.jpeg",
+  "minQuantity": "1",
+  "description": "Vincha cómoda y estilosa, ideal para complementar cualquier peinado."
+},
+{
+  "id": 101,
+  "name": "Vinchas",
+  "price": 900,
+  "category": "Accesorios para el pelo",
+  "image": "vinch2.jpeg",
+  "minQuantity": "1",
+  "description": "Vincha cómoda y estilosa, ideal para complementar cualquier peinado."
+},
+{
+  "id": 102,
+  "name": "Colitas de pelo",
+  "price": 75,
+  "category": "Accesorios para el pelo",
+  "image": "c1.jpeg",
+  "minQuantity": "50",
+  "description": "Colitas de pelo para mantener firme tu peinado. Minimo 50 unidades",
+  "variants": [
+    {
+      "id": 7777,
+      "color": "Negro y blanco con lineas coloridas",
+      "image": "c1.jpeg",
+      "minQuantity": 50
+    },
+    {
+      "id": 7778,
+      "color": "Negro y blanco con lineas blancas",
+      "image": "c2.jpeg",
+      "minQuantity": 50
+    },
+    {
+      "id": 7779,
+      "color": "Coloridas",
+      "image": "c3.jpeg",
+      "minQuantity": 50
+    } ]
+},
+{
+  "id": 103,
+  "name": "Colitas de pelo",
+  "price": 1200,
+  "category": "Accesorios para el pelo",
+  "image": "c4.jpeg",
+  "minQuantity": "1",
+  "description": "Colitas de pelo, coloridas y llamativas para resaltar tu look"
+},
+{
+  "id": 104,
+  "name": "Broches color pastel",
+  "price": 950,
+  "category": "Broches",
+  "image": "brochespastel.jpeg",
+  "minQuantity": "1",
+  "description": "Broches en colores pastel, delicados y prácticos para sujetar tu cabello con estilo."
+},
+{
+  "id": 105,
+  "name": "Brochesitos",
+  "price": 250,
+  "category": "Broches",
+  "image": "brochesitos.jpeg",
+  "minQuantity": "12",
+  "description": "Brochesitos coloridos y delicados, perfectos para mantener tu cabello sujeto con estilo. Minimo 12 unidades"
+},
+{
+  "id": 106,
+  "name": "Broches",
+  "price": 290,
+  "category": "Broches",
+  "image": "brochesredondos.jpeg",
+  "minQuantity": "10",
+  "description": "Broches redondos, simples y elegantes, ideales para sujetar tu cabello con estilo."
+},
+{
+  "id": 107,
+  "name": "Colita de pelo gruesas",
+  "price": 490,
+  "category": "Accesorios para el pelo",
+  "image": "cdp.jpeg",
+  "minQuantity": "12",
+  "description": "Colitas de pelo resistentes y coloridas. Minimo 12 unidades",
+    "variants": [
+    {
+      "id": 2221,
+      "color": "Coloridas",
+      "image": "cdp1.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 2222,
+      "color": "Blancas",
+      "image": "cdp2.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 2223,
+      "color": "Negras",
+      "image": "cdp3.jpeg",
+      "minQuantity": 12
+    },
+   {
+      "id": 2224,
+      "color": "Blancas y negras (mixtas)",
+      "image": "cdp4.jpeg",
+      "minQuantity": 12
+    } ]
+},
+{
+  "id": 108,
+  "name": "Colitas de pelo color pastel",
+  "price": 350,
+  "category": "Accesorios para el pelo",
+  "image": "cdpc.jpeg",
+  "minQuantity": "24",
+  "description": "Colitas de pelo resistentes color pastel. Minimo 24 unidades"
+},
+{
+  "id": 109,
+  "name": "Billeteras grandes doble cierre",
+  "price": 7900,
+  "category": "Marroquineria",
+  "images": ["bdg.jpeg","bdf.jpeg"],
+  "minQuantity": "1",
+  "description": "Billetera grande con doble cierre, ideal para organizar todo con estilo y comodidad."
+},
+{
+  "id": 110,
+  "name": "Cartera",
+  "price": 12500,
+  "category": "Marroquineria",
+  "image": "cartera.jpeg",
+  "minQuantity": "1",
+  "description": "Cartera práctica y estilosa, perfecta para llevar tus cosas organizadas con comodidad y personalidad."
+},
+
+  {
+    "id": 111,
+    "name": "Uña postiza",
+    "price": 390,
+    "category": "Varios",
+    "image": "uña.jpeg",
+    "minQuantity": "9",
+    "description": "Uña postiza práctica y elegante, fácil de colocar, perfecta para un acabado prolijo y con estilo. Minimo 9 unidades."
+  },
+  {
+    "id": 112,
+    "name": "Aros Bulgary",
+    "price": 1775,
+    "category": "Acero quirurgico",
+    "image": "ab.jpeg",
+    "minQuantity": "3",
+    "description": "Aros de acero quirurgico, para llevar con gran estilo. Minimo 3 unidades."
+  },
+  {
+    "id": 113,
+    "name": "Abridores",
+    "price": 1500,
+    "category": "Acero quirurgico",
+    "image": "abr.jpeg",
+    "minQuantity": "12",
+    "description": "Abridor de acero quirúrgico, resistente y duradero, ideal para uso seguro y cómodo."
+  },
+  {
+    "id": 114,
+    "name": "Colita con perlas",
+    "price": 490,
+    "category": "Accesorios para el pelo",
+    "image": "colitape.jpeg",
+    "minQuantity": "12",
+    "description": "Colita con detalles de perlas, elegante y delicada, perfecta para complementar tu peinado con estilo. 12 Unidades."
+  },
+  {
+    "id": 115,
+    "name": "Tira de argollas acero dorado",
+    "price": 1200,
+    "category": "Aros",
+    "image": "argollas.jpeg",
+    "minQuantity": "12",
+    "description": "Tira de argollas en acero dorado, resistente y elegante, ideal para manualidades o accesorios personalizados. 12 unidades"
+  },
+  {
+    "id": 116,
+    "name": "Blister de aritos strass",
+    "price": 750,
+    "category": "Acero quirurgico",
+    "image": "basaq.jpeg",
+    "minQuantity": "12",
+    "description": "Blister de aritos con strass, brillantes y delicados, perfectos para lucir un estilo elegante y brillante. 12 unidades"
+  },
+  {
+    "id": 117,
+    "name": "Blister de aritos",
+    "price": 750,
+    "category": "Acero quirurgico",
+    "image": "baaq.jpeg",
+    "minQuantity": "12",
+    "description": "Blister de aritos de acero quirurgico delicados, ideales para lucir un estilo elegante y minimalista. 12 unidades"
+  },
+  {
+    "id": 118,
+    "name": "Blister de perlas",
+    "price": 625,
+    "category": "Varios",
+    "image": "bptv.jpeg",
+    "minQuantity": "12",
+    "description": "Blister de perlas tamaños varios. 12 Unidades"
+  },
+  {
+    "id": 119,
+    "name": "Tira de aros",
+    "price": 1900,
+    "category": "Aros",
+    "image": "ta.jpeg",
+    "minQuantity": "12",
+    "description": "Aros elegantes, livianos y versátiles, perfectos para complementar cualquier look con estilo. 12 Unidades"
+  },
+  {
+    "id": 120,
+    "name": "Blister de aritos plateados y dorados",
+    "price": 1500,
+    "category": "Acero quirurgico",
+    "images": ["bda.jpeg","bda2.jpeg"],
+    "minQuantity": "12",
+    "description": "Blister de aritos elegantes para llevar con vos en cualquier ocasión. 12 unidades"
+  },
+  {
+    "id": 121,
+    "name": "Blister de aritos ",
+    "price": 2500,
+    "category": "Aros",
+    "images": ["bda3.jpeg","bda4.jpeg"],
+    "minQuantity": "12",
+    "description": "Blister de aritos elegantes para llevar con vos en cualquier ocasión. 12 unidades"
+  },
+  {
+    "id": 122,
+    "name": "Pulseras de acero quirurgico",
+    "price": 1750,
+    "category": "Acero quirurgico",
+    "images": ["pulsera.jpeg","pulsera2.jpeg"],
+    "minQuantity": "1",
+    "description": "Pulsera de acero quirúrgico, resistente y elegante para uso diario. "
+  },
+  {
+    "id": 123,
+    "name": "Vinchas con flores",
+    "price": 1500,
+    "category": "Accesorios para el pelo",
+    "image": "vi.jpeg",
+    "minQuantity": "1",
+    "description": "Vincha con flores decorativas, ideal para dar un toque delicado y femenino a tu look."
+  },
+  {
+    "id": 124,
+    "name": "Colitas coloridas",
+    "price": 750,
+    "category": "Accesorios para el pelo",
+    "image": "Colita.jpeg",
+    "minQuantity": "6",
+    "description": "Paquetitos de colitas de 2 unidades cada una. Trae 6 paquetes."
+  },
+  {
+    "id": 125,
+    "name": "Vinchas de tela",
+    "price": 950,
+    "category": "Accesorios para el pelo",
+    "image": "vinchadetela.jpeg",
+    "minQuantity": "6",
+    "description": "Vinchas de tela en colores variados, cómoda y práctica para usar todos los días. Minimo 6 unidades",
+    "variants":[
+  
+    {
+      "id": 4342,
+      "color": "pasteles",
+      "image": "vinchadetela.jpeg",
+      "minQuantity": 6
+    },
+    {
+      "id": 4243,
+      "color": "Blancas",
+      "image": "vinchadetela2.jpeg",
+      "minQuantity": 6
+    }
+
+
+
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Broches grandes de osito",
+    "price": 1900,
+    "category": "Broches",
+    "image": "brocheosito.jpeg",
+    "minQuantity": "6",
+    "description": "Broche grande con diseño de osito, tierno y práctico para sujetar el cabello. Minimo 6 unidades "
+  },
+  {
+    "id": 127,
+    "name": "Broches grandes estilo lattice",
+    "price": 1900,
+    "category": "Categoría 18",
+    "image": "brochee.jpeg",
+    "minQuantity": "6",
+    "description": "Broche grande con diseño enrejado, bonito y práctico para sujetar el cabello. Minimo 6 unidades "
+  },
+  {
+    "id": 128,
+    "name": "Bolso",
+    "price": 14490,
+    "category": "Marroquineria",
+    "image": "bnct.jpeg",
+    "minQuantity": "1",
+    "description": "Bolsos espaciosos para llevar tus cosas con estilo.",
+     "variants": [
+      {
+      "id": 3133,
+      "color": "Gris con tachas",
+      "image": "bnct.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 3333,
+      "color": "rojo con tachas",
+      "image": "rct.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 3334,
+      "color": "beige con tiras",
+      "image": "beict.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 3332,
+      "color": "rojo con tiras",
+      "image": "roct.jpeg",
+      "minQuantity": 1
+    }
+  ]
+  },
+  {
+    "id": 129,
+    "name": "Broches chicos con strass",
+    "price": 1175,
+    "category": "Broches",
+    "image": "bccs.jpeg",
+    "minQuantity": "12",
+    "description": "Broches chicos brillantes para estilizar tu peinado. 12 unidades."
+  },
+  {
+    "id": 130,
+    "name": "Aros de fiesta",
+    "price": 3600,
+    "category": "Aros",
+    "images": ["adf.jpeg","adf1.jpeg"],
+    "minQuantity": "1",
+    "description": "Aros de fiesta, llamativos y elegantes para ocasiones especiales."
+  },
+  {
+    "id": 131,
+    "name": "Trepadores",
+    "price": 1800,
+    "category": "Aros",
+    "images": ["at.jpeg","at1.jpeg"],
+    "minQuantity": "1",
+    "description": "Aros trepadores elegantes, perfectos para un look sofisticado y delicado."
+  },
+  {
+    "id": 132,
+    "name": "Broches de metal serpiente",
+    "price": 2500,
+    "category": "Broches",
+    "image": "bdms.jpeg",
+    "minQuantity": "6",
+    "description": "Broche de metal con diseño de serpiente, moderno y distintivo. Minimo 6 unidades"
+  },
+  {
+    "id": 133,
+    "name": "Broches de mariposa",
+    "price": 1490,
+    "category": "Broches",
+    "image": "bdm.jpeg",
+    "minQuantity": "6",
+    "description": "Broches de marpisa, moderno y distintivo. Minimo 6 unidades."
+  },
+  {
+    "id": 134,
+    "name": "Broches de goma",
+    "price": 590,
+    "category": "Broches",
+    "image": "bdgoma.jpeg",
+    "minQuantity": "12",
+    "description": "Broches de goma, prácticos y resistentes para sujetar el cabello. 12 unidades"
+  },
+  {
+    "id": 135,
+    "name": "Broche de metal con perlas",
+    "price": 980,
+    "category": "Broches",
+    "image": "bdmcp.jpeg",
+    "minQuantity": "12",
+    "description": "Broches de metal con perlas, disponibles en plateado o dorado, elegantes y delicados. 12 unidades",
+    "variants": [
+    {
+      "id": 2212,
+      "color": "plateados",
+      "image": "bdmcp.jpeg",
+      "minQuantity": 12
+    },
+    {
+      "id": 2122,
+      "color": "dorados",
+      "image": "bdmcp.jpeg",
+      "minQuantity": 12
+    }]
+  },
+  {
+    "id": 136,
+    "name": "Dijes de acero quirurgico",
+    "price": 650,
+    "category": "Acero quirurgico",
+    "image": "ddaq.jpeg",
+    "minQuantity": "4",
+    "description": "Dijes de acero quirúrgico, resistentes y con diseño versátil para tus accesorios. Minimo 4 unidades"
+  },
+  {
+    "id": 137,
+    "name": "Piercing ombligo acero quirurgico",
+    "price": 1900,
+    "category": "Piercing",
+    "image": "poaq.jpeg",
+    "minQuantity": "1",
+    "description": "Piercing de ombligo en acero quirúrgico, seguro, resistente y cómodo para uso diario."
+  },
+  {
+    "id": 138,
+    "name": "Blister de aritos cruces con strass",
+    "price": 950,
+    "category": "Acero quirurgico",
+    "image": "bdac.jpeg",
+    "minQuantity": "12",
+    "description": "Blister de aritos cruces con strass de acero quirurgico, perfecto para complementar tu look. 12 unidades"
+  },
+  {
+    "id": 139,
+    "name": "Aritos redondos de acero quirurgico",
+    "price": 950,
+    "category": "Acero quirurgico",
+    "image": "aritos.jpeg",
+    "minQuantity": "12",
+    "description": "Aritos redondos de acero quirúrgico, resistentes y perfectos para uso diario. 12 Unidades"
+  },
+  {
+    "id": 140,
+    "name": "Pelota anti estrés",
+    "price": 950,
+    "category": "Varios",
+    "images": ["pae.jpeg","pae0.jpeg","pae1.jpeg","pae3.jpeg","pae4.jpeg"],
+    "minQuantity": "1",
+    "description": "Pelota antiestrés, práctica para relajar manos y aliviar tensiones. "
+  },
+  {
+    "id": 141,
+    "name": "Abanicos invisibles",
+    "price": 990,
+    "category": "Varios",
+    "image": "aba.jpeg",
+    "minQuantity": "1",
+    "description": "Abanicos invisibles, prácticos y compactos para refrescarte en cualquier momento. "
+  },
+  {
+    "id": 142,
+    "name": "Tira de hebillas",
+    "price": 1200,
+    "category": "Accesorios para el pelo",
+    "images": ["tdh.jpeg","tdh1.jpeg","tdh2.jpeg","tdh3.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de hebillas, práctica y versátil para crear o ajustar accesorios. 10 Unidades"
+  },
+  {
+    "id": 143,
+    "name": "Set de regalo",
+    "price": 1500,
+    "category": "Accesorios para el pelo",
+    "images": ["sdr.jpeg","sdr1.jpeg"],
+    "minQuantity": "1",
+    "description": "Set de regalo con vincha y accesorios para el cabello, ideal para regalar o consentirte."
+  },
+  {
+    "id": 144,
+    "name": "Set colitas",
+    "price": 990,
+    "category": "Accesorios para el pelo",
+    "image": "setcolit.jpeg",
+    "minQuantity": "1",
+    "description": "Set de colitas de distintos tamaños y formas"
+  },
+  {
+    "id": 145,
+    "name": "Broches clásicos",
+    "price": 570,
+    "category": "Broches",
+    "image": "brochesclasicos.jpeg",
+    "minQuantity": "12",
+    "description": "Broches clásicos de distintos colores para tu cabello. 12 Unidades"
+  },
+  {
+    "id": 146,
+    "name": "Broches pequeños/medianos",
+    "price": 250,
+    "category": "Categoría 37",
+    "image": "brochess.jpeg",
+    "minQuantity": "25",
+    "description": "Broches chiquitos de distintos colores para tu cabello. Minimo 25 unidades"
+  },
+  {
+    "id": 147,
+    "name": "Coronitas de peinado",
+    "price": 750,
+    "category": "Accesorios para el pelo",
+    "image": "coronitas.jpeg",
+    "minQuantity": "12",
+    "description": "Coronitas para peinado, delicadas y perfectas para looks especiales. 12 Unidades"
+  },
+  {
+    "id": 148,
+    "name": "Colita de lazo",
+    "price": 990,
+    "category": "Accesorios para el pelo",
+    "image": "colitadelazo.jpeg",
+    "minQuantity": "6",
+    "description": "Colitas de lazo, dulces y prácticas para cualquier peinado. Minimo 6 unidades "
+  },
+  {
+    "id": 149,
+    "name": "Moños",
+    "price": 990,
+    "category": "Accesorios para el pelo",
+    "images": ["moños.jpeg","moños1.jpeg","moños2.jpeg","moños3.jpeg","moños4.jpeg"],
+    "minQuantity": "6",
+    "description": "Moños para el cabello, coloridos y cómodos para cualquier peinado."
+  },
+  {
+    "id": 150,
+    "name": "Tira de colitas",
+    "price": 1200,
+    "category": "Accesorios para el pelo",
+    "images": ["tiradecolitas.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de colitas, dulces y prácticas para cualquier peinado. 10 Unidades"
+  },
+  {
+    "id": 151,
+    "name": "Tira de picos",
+    "price": 990,
+    "category": "Accesorios para el pelo",
+    "images": ["tiradepicos.jpeg","tiradepicos1.jpeg","tiradepicos2.jpeg","tiradepicos3.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de picos para el cabello, prácticos y resistentes para sujetar cualquier peinado. 10 Unidades"
+  },
+  {
+    "id": 152,
+    "name": "Tira de colitas conejo",
+    "price": 1500,
+    "category": "Accesorios para el pelo",
+    "images": ["tiradecolitaconejo.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de colitas con diseño de conejito, suaves y coloridas, perfectas para peinados divertidos y cómodos. 10 unidades"
+  },
+  {
+    "id": 153,
+    "name": "Tira de coliltas pompón",
+    "price": 1200,
+    "category": "Accesorios para el pelo",
+    "images": ["tdcp.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de colitas con pompones suaves y coloridos, ideales para peinados divertidos y cómodos. 10 unidades"
+  },
+  {
+    "id": 154,
+    "name": "Tira de colitas pompón beige",
+    "price": 1390,
+    "category": "Accesorios para el pelo",
+    "images": ["tdcp1.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de colitas con pompones suaves color beirge, ideales para peinados cómodos. 10 unidades"
+  },
+  {
+    "id": 155,
+    "name": "Tira de colitas scrunchies con orejas",
+    "price": 1390,
+    "category": "Accesorios para el pelo",
+    "images": ["tcsco.jpeg","tcsco1.jpeg"],
+    "minQuantity": "10",
+    "description": "Tira de scrunchies con orejitas de conejo, suaves y divertidos, perfectos para darle un toque adorable a cualquier peinado. 10 unidades"
+  },
+  {
+    "id": 156,
+    "name": "Brochesitos",
+    "price": 1500,
+    "category": "Accesorios para el pelo",
+    "images": ["brochesito1.jpeg","brochesito2.jpeg","brochesito3.jpeg","brochesito4.jpeg","brochesito5.jpeg"],
+    "minQuantity": "10",
+    "description": "Pack de brochistos pequeños en colores variados, prácticos y divertidos para sujetar cualquier peinado. 10 unidades",
+    "variants": [
+    {
+      "id": 331,
+      "color": "coloridos",
+      "image": "brochesito1.jpeg",
+      "minQuantity": 10
+    },
+    {
+      "id": 332,
+      "color": "marron",
+      "image": "brochesito2.jpeg",
+      "minQuantity": 10
+    },
+    {
+      "id": 333,
+      "color": "coloridos pastel",
+      "image": "brochesito3.jpeg",
+      "minQuantity": 10
+    },
+    {
+      "id": 334,
+      "color": "negro",
+      "image": "brochesito5.jpeg",
+      "minQuantity": 10
+    }
+  ]
+
+  },
+  {
+    "id": 157,
+    "name": "Set de picos con invisibles",
+    "price": 1650,
+    "category": "Accesorios para el pelo",
+    "images": ["sdpci.jpeg","sdpci1.jpeg","sdpci2.jpeg"],
+    "minQuantity": "6",
+    "description": "Set de picos y hebillas invisibles, ideal para peinados firmes y discretos. Minimo 6 unidades."
+  },
+  {
+    "id": 158,
+    "name": "Set de picos con colitas (Unicornio)",
+    "price": 2500,
+    "category": "Accesorios para el pelo",
+    "images": ["sdpcc.jpeg","sdpcc1.jpeg"],
+    "minQuantity": "3",
+    "description": "Set de picos y colitas con diseño de unicornio, colorido y divertido para peinados creativos. 3 Unidades"
+  },
+  {
+    "id": 159,
+    "name": "Colitas con diseños de goma",
+    "price": 2500,
+    "category": "Accesorios para el pelo",
+    "images": ["ce.jpeg","ce1.jpeg","ce2.jpeg"],
+    "minQuantity": "1",
+    "description": "Colitas de goma con divertidos diseños, suaves y cómodas para cualquier peinado."
+  },
+  {
+    "id": 160,
+    "name": "Tira de colitas",
+    "price": 1290,
+    "category": "Accesorios para el pelo",
+    "images": ["tdc.jpeg"],
+    "minQuantity": "1",
+    "description": "Tira de colitas para el cabello, prácticas y resistentes para cualquier peinado."
+  },
+  {
+    "id": 161,
+    "name": "Hebillas animal print",
+    "price": 450,
+    "category": "Accesorios para el pelo",
+    "images": ["hap.jpeg","hap2.jpeg"],
+    "minQuantity": "6",
+    "description": "Hebillas con diseño animal print, ideales para darle estilo a cualquier peinado. 6 pares "
+  },
+  {
+    "id": 162,
+    "name": "Tira de pico con strass o perlas",
+    "price": 890,
+    "category": "Accesorios para el pelo",
+    "images": ["tdpcs.jpeg","tdpcp.jpeg"],
+    "minQuantity": "3",
+    "description": "Tira de picos decorativos con strass o perlas, perfectos para peinados elegantes y festivos. 3 tiras"
+  },
+  {
+    "id": 163,
+    "name": "Hebillas blister de 3",
+    "price": 1500,
+    "category": "Accesorios para el pelo",
+    "images": ["hb.jpeg","hb1.jpeg","hb2.jpeg","hb3"],
+    "minQuantity": "1",
+    "description": "Set de 3 hebillas en blister, prácticas y coloridas para cualquier peinado."
+  },
+  {
+    "id": 164,
+    "name": "Paquete de 100 colitas",
+    "price": 6500,
+    "category": "Accesorios para el pelo",
+    "images": ["c100.jpeg","c1001.jpeg","c1002.jpeg","c1003.jpeg"],
+    "minQuantity": "1",
+    "description": "Descripción genérica para producto 164.",
+  "variants": [
+    {
+      "id": 17,
+      "color": "Negras",
+      "image": "c100.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 18,
+      "color": "Negras y blancas",
+      "image": "c1001.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 19,
+      "color": "Negras, blancas, azules y rojas",
+      "image": "c1002.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 20,
+      "color": "Colores pastel",
+      "image": "c1003.jpeg",
+      "minQuantity": 1
+    }
+  ]
+  },
+  {
+    "id": 165,
+    "name": "Broches de perla",
+    "price": 600,
+    "category": "Broches",
+    "images": ["brochesdeperla.jpeg","brochesdeperla2.jpeg"],
+    "minQuantity": "6",
+    "description": "Broches con detalle de perla, elegantes y delicados para cualquier peinado. "
+  },
+  {
+    "id": 166,
+    "name": "Broches de plástico grandes",
+    "price": 1250,
+    "category": "Broches",
+    "images": ["bdpg.jpeg","bdpg1.jpeg"],
+    "minQuantity": "6",
+    "description": "Broches grandes de plástico, resistentes y prácticos para sujetar cualquier peinado. 6 Unidades."
+  },
+  {
+    "id": 167,
+    "name": "Broches de perla blister de 12",
+    "price": 590,
+    "category": "Broches",
+    "images": ["bdp.jpeg"],
+    "minQuantity": "12",
+    "description": "Blister de 12 broches con perlas, elegantes y prácticos para cualquier peinado."
+  },
+  {
+    "id": 168,
+    "name": "Tira de picos",
+    "price": 950,
+    "category": "Accesorios para el pelo",
+    "images": ["tdp.jpeg"],
+    "minQuantity": "1",
+    "description": "Tira de picos para el cabello, prácticos y resistentes para sujetar cualquier peinado. Contiene varias unidades. "
+  },
+  {
+    "id": 169,
+    "name": "Tira de broches x4",
+    "price": 990,
+    "category": "Broches",
+    "images": ["tiradebroches.jpeg","tiradebroches1.jpeg"],
+    "minQuantity": "1",
+    "description": "Tira de broches para el cabello, cada paquetito contiene 4 broches resistentes, ideales para cualquier peinado."
+  },
+  {
+    "id": 170,
+    "name": "Broches medianos de metal",
+    "price": 850,
+    "category": "Broches",
+    "images": ["brochesme.jpeg"],
+    "minQuantity": "1",
+    "description": "Broches medianos de metal, resistentes y elegantes para sujetar cualquier peinado con estilo. Tira de 12 unidades"
+  },
+  {
+    "id": 171,
+    "name": "Minibroches",
+    "price": 290,
+    "category": "Broches",
+    "images": ["mini.jpeg","mini2.jpeg","mini3.jpeg"],
+    "minQuantity": "12",
+    "description": "Mini broches para el cabello, prácticos y coloridos, ideales para todo tipo de peinados. Minimo 12 unidades"
+  },
+  {
+    "id": 172,
+    "name": "Minibroches reforzados",
+    "price": 350,
+    "category": "Broches",
+    "images": ["minibroch.jpeg","minibroch1.jpeg"],
+    "minQuantity": "12",
+    "description": "Mini broches para el cabello, prácticos y coloridos, ideales para todo tipo de peinados. Minimo 12 unidades"
+  },
+  {
+    "id": 173,
+    "name": "Set cadena y pulsera acero quirurgico dorado",
+    "price": 3900,
+    "category": "Varios",
+    "images": ["scyp.jpeg","scyp1.jpeg","scyp2.jpeg","scyp3.jpeg"],
+    "minQuantity": "1",
+    "description": "Set de cadena y pulsera en acero quirúrgico dorado, resistente y hipoalergénico, ideal para uso diario."
+  },
+  {
+    "id": 174,
+    "name": "Set cadena con dije y par de aros",
+    "price": 4500,
+    "category": "Varios",
+    "images": ["sc.jpeg","sc1.jpeg","sc2.jpeg","sc3.jpeg","sc4.jpeg","sc5.jpeg","scsc6.jpeg","sc7.jpeg","sc8.jpeg","sc9.jpeg","sc10.jpeg"],
+    "minQuantity": "1",
+    "description": "Set de cadena con dije y par de aros en acero quirúrgico, elegante y resistente, perfecto para combinar a diario."
+  },
+  {
+    "id": 175,
+    "name": "Pulsera acero quirurgico con perlas",
+    "price": 4500,
+    "category": "Acero quirurgico",
+    "images": ["p.jpeg","p1.jpeg","p2.jpeg","p3.jpeg","p4.jpeg"],
+    "minQuantity": "1",
+    "description": "Pulsera de acero quirúrgico con perlas, resistente y elegante, ideal para usar sola o combinar con otros accesorios."
+  },
+  {
+    "id": 176,
+    "name": "Pulsera de acero quirurgico",
+    "price": 3500,
+    "category": "Acero quirurgico",
+    "images": ["paq.jpeg","paq1.jpeg","paq2.jpeg","paq3.jpeg"],
+    "minQuantity": "1",
+    "description": "Pulsera de acero quirúrgico, duradera y cómoda, perfecta para el uso diario o combinar con otros accesorios."
+  },
+  {
+    "id": 177,
+    "name": "Pulsera de acero quirurgico delicada",
+    "price": 4500,
+    "category": "Acero quirurgico",
+    "images": ["paqd.jpeg","paqd1.jpeg","paqd2.jpeg","paqd4.jpeg","paqd7.jpeg","paqd8.jpeg","paqd9.jpeg","paqd10.jpeg"],
+    "minQuantity": "1",
+    "description": "Pulsera de acero quirúrgico, duradera y cómoda, perfecta para el uso diario o combinar con otros accesorios."
+  },
+  {
+    "id": 178,
+    "name": "Argollitas con dije de acero quirurgico",
+    "price": 1250,
+    "category": "Acero quirurgico",
+    "images": ["arg.jpeg","arg2.jpeg","arg3.jpeg","arg4.jpeg","arg7.jpeg","arg8.jpeg","arg9.jpeg","arg10.jpeg","arg11.jpeg"],
+    "minQuantity": "1",
+    "description": "Argollitas de acero quirúrgico con dije, resistentes, hipoalergénicas y listas para usar en cualquier ocasión."
+  },
+  {
+    "id": 179,
+    "name": "Blister de aritos con strass",
+    "price": 1250,
+    "category": "Acero quirurgico",
+    "images": ["bacs.jpeg","bacs1.jpeg"],
+    "minQuantity": "1",
+    "description": "Blister de aritos con strass de acero quirurgico, resistentes y listos para usar en cualquier situación."
+  },
+  {
+  "id": 180,
+  "name": "Blister de aritos con strass reforzados",
+  "price": 1350,
+  "category": "Acero quirurgico",
+  "images": ["bacs2.jpeg","bacs3.jpeg"],
+  "minQuantity": "1",
+  "description": "Blister de aritos con strass de acero quirurgico, resistentes y listos para usar en cualquier situación."
+},
+{
+  "id": 181,
+  "name": "Par de aritos acero blanco",
+  "price": 1500,
+  "category": "Aros",
+  "images": ["pda.jpeg"],
+  "minQuantity": "1",
+  "description": "Par de aritos de acero blanco, hipoalergénicos y resistentes, ideales para uso diario. Diseño simple y elegante que combina con cualquier estilo"
+},
+{
+  "id": 182,
+  "name": "Blister de aritos de acero quirurgico",
+  "price": 1590,
+  "category": "Acero quirurgico",
+  "images": ["bdaaq.jpeg"],
+  "minQuantity": "1",
+  "description": "Blister de aritos de acero quirúrgico, resistentes y hipoalergénicos. Perfectos para combinar y usar a diario con estilo seguro y cómodo."
+},
+{
+  "id": 183,
+  "name": "Aros cubanos",
+  "price": 750,
+  "category": "Accesorios para el pelo",
+  "images": ["ac.jpeg","ac1.jpeg","ac2.jpeg","ac4.jpeg","ac7.jpeg"],
+  "minQuantity": "1",
+  "description": "Aros cubanos de acero quirúrgico, duraderos y hipoalergénicos. Ideales para un look elegante y seguro para uso diario."
+},
+{
+  "id": 184,
+  "name": "Aros de acero quirurgico",
+  "price": 1500,
+  "category": "Acero quirurgico",
+  "images": ["aaq.jpeg"],
+  "minQuantity": "6",
+  "description": "Aros de acero quirúrgico, resistentes y hipoalergénicos. Perfectos para un estilo diario cómodo y seguro."
+},
+{
+  "id": 185,
+  "name": "Argollas de acero quirurgico",
+  "price": 1500,
+  "category": "Acero quirurgico",
+  "images": ["araq.jpeg"],
+  "minQuantity": "1",
+  "description": "Argollas de acero quirúrgico, duraderas y elegantes. Ideales para cualquier ocasión y seguras para uso diario."
+},
+{
+  "id": 186,
+  "name": "Alianzas acero blanco",
+  "price": 590,
+  "category": "Anillos",
+  "images": ["al.jpeg","al1.jpeg","al2.jpeg","al3.jpeg"],
+  "minQuantity": "6",
+  "description": "Alianzas de acero blanco, resistentes y con acabado elegante. Perfectas para uso diario o para ocasiones especiales. Minimo 6 unidades"
+},
+{
+  "id": 187,
+  "name": "Bliter strass",
+  "price": 370,
+  "category": "Varios",
+  "images": ["bs.jpeg","bs1.jpeg"],
+  "minQuantity": "36",
+  "description": "Blister con strass brillantes, ideales para decorar accesorios, ropa o manualidades de manera práctica y elegante.",
+  "variants": [
+    {
+      "id": 10,
+      "color": "Brillantes",
+      "image": "bs.jpeg",
+      "minQuantity": 36
+    },
+    {
+      "id": 11,
+      "color": "Coloridos",
+      "image": "bs1.jpeg",
+      "minQuantity": 36
+    }]
+},
+{
+  "id": 188,
+  "name": "Anillos niña",
+  "price": 450,
+  "category": "Anillos",
+  "images": ["an.jpeg","an1.jpeg"],
+  "minQuantity": "36",
+  "description": "Anillos infantiles ajustables, coloridos y divertidos, perfectos para complementar el look de las más pequeñas. 36 unidades"
+},
+{
+  "id": 189,
+  "name": "Strass para cara",
+  "price": 950,
+  "category": "Varios",
+  "images": ["spc.jpeg"],
+  "minQuantity": "1",
+  "description": "Strass autoadhesivos para el rostro, ideales para maquillaje artístico, fiestas y festivales."
+},
+{
+  "id": 190,
+  "name": "Pulseras de boca",
+  "price": 990,
+  "category": "Varios",
+  "images": ["pb.jpeg"],
+  "minQuantity": "12",
+  "description": "Pulseras de Boca Juniors, con diseño deportivo y colores clásicos del club. Perfectas para hinchas que quieren llevar su pasión en la muñeca. 12 Unidades"
+},
+{
+  "id": 191,
+  "name": "Cadenita con dije fantasía",
+  "price": 2200,
+  "category": "Acero quirurgico",
+  "images": ["ccd.jpeg","ccd1.jpeg"],
+  "minQuantity": "1",
+  "description": "Cadenita con dije de fantasía, delicada y versátil, ideal para complementar cualquier look con un detalle único y elegante."
+},
+{
+  "id": 192,
+  "name": "Abridores dorados",
+  "price": 450,
+  "category": "Accesorios para el pelo",
+  "images": ["ad.jpeg"],
+  "minQuantity": "12",
+  "description": "Abridores dorados, clásicos y cómodos, perfectos para un uso diario con estilo y sencillez. 12 unidades"
+},
+{
+  "id": 193,
+  "name": "Perforadores acero quirurgico",
+  "price": 1190,
+  "category": "Acero quirurgico",
+  "images": ["paqq.jpeg"],
+  "minQuantity": "6",
+  "description": "Perforadores de acero quirúrgico, resistentes e hipoalergénicos, ideales para garantizar seguridad y durabilidad en cada aplicación (Incluye un abridor cada uno)."
+},
+{
+  "id": 194,
+  "name": "Set choker",
+  "price": 990,
+  "category": "Varios",
+  "images": ["setchoker.jpeg"],
+  "minQuantity": "1",
+  "description": "Set de chokers modernos y versátiles, perfectos para complementar tus looks con un estilo único y elegante."
+},
+{
+  "id": 195,
+  "name": "Choker",
+  "price": 750,
+  "category": "Varios",
+  "images": ["ck.jpeg","ck1.jpeg","ck2.jpeg","ck3.jpeg","ck4.jpeg","ck7,jpeg","ck8.jpeg"],
+  "minQuantity": "12",
+  "description": "Choker sencillo y elegante, ideal para darle un toque moderno y delicado a cualquier outfit. 12 unidades"
+},
+
+{
+  "id": 197,
+  "name": "Blister de perlas fantasía",
+  "price": 3500,
+  "category": "Varios",
+  "images": ["bp.jpeg","bp1.jpeg"],
+  "minQuantity": "1",
+  "description": "Blister de perlas fantasía, delicadas y versátiles para complementar cualquier look con estilo. 12 pares"
+},
+{
+  "id": 198,
+  "name": "Set cadenita con dije y par de aritos",
+  "price": 2690,
+  "category": "Varios",
+  "images": ["sccd.jpeg","sccd1.jpeg"],
+  "minQuantity": "1",
+  "description": "Set delicado de cadenita con dije y par de aritos a juego, ideal para regalar o lucir en ocasiones especiales."
+},
+
+{
+  "id": 200,
+  "name": "Pulsera",
+  "price": 1500,
+  "category": "Varios",
+  "images": ["pul.jpeg","pul1.jpeg"],
+  "minQuantity": "1",
+  "description": "Pulsera elegante y versátil, perfecta para complementar tu estilo diario o un look especial."
+},
+{
+  "id": 201,
+  "name": "Llaveros",
+  "price": 1490,
+  "category": "Varios",
+  "images": ["ll.jpeg","ll1.jpeg","ll2.jpeg","ll4.jpeg","ll7.jpeg"],
+  "minQuantity": "6",
+  "description": "Llaveros resistentes y prácticos, ideales para llevar tus llaves con estilo y seguridad. Minimo 6 unidades"
+},
+{
+  "id": 202,
+  "name": "Producto 202",
+  "price": 1200,
+  "category": "Par de aritos",
+  "images": ["pa.jpeg","pa0.jpeg","pa1.jpeg","pa2.jpeg","pa3.jpeg","pa4.jpeg"],
+  "minQuantity": "1",
+  "description": "Pequeños y elegantes, estos aritos de acero quirúrgico son cómodos, duraderos y perfectos para uso diario."
+},
+{
+  "id": 203,
+  "name": "Lentes de sol (12 unidades)",
+  "price": 3000,
+  "category": "Lentes de sol",
+  "images": ["ls.jpeg","ls0.jpeg","ls1.jpeg","ls2.jpeg","ls3.jpeg","ls4.jpeg","ls7.jpeg","ls8.jpeg"],
+  "minQuantity": "12",
+  "description": "Protege tus ojos con estilo. Lentes de sol modernos y resistentes, ideales para cualquier ocasión. 12 unidades"
+},
+{
+  "id": 204,
+  "name": "Billetera de hombre",
+  "price": 5200,
+  "category": "Marroquineria",
+  "images": ["b.jpeg","b1.jpeg","b2.jpeg","b3.jpeg"],
+  "minQuantity": "1",
+  "description": "Billetera de hombre elegante y práctica, con múltiples compartimentos para tarjetas, billetes y documentos. Perfecta para el día a día."
+},
+{
+  "id": 205,
+  "name": "Billetera de mujer doble cierre",
+  "price": 10500,
+  "image":"bmdc.jpeg",
+  "category": "Marroquinería",
+  "description": "Billetera de mujer con doble cierre, elegante y práctica, ideal para organizar billetes, tarjetas y monedas de forma segura y cómoda."
+},
+{
+  "id": 206,
+  "name": "Billetera de mujer un cierre",
+  "image":"bmdc1.jpeg",
+  "price": 9500,
+  "category": "Marroquinería",
+  "description": "Billetera con cierre seguro, perfecta para mantener tus pertenencias organizadas."
+},
+{
+  "id": 207,
+  "name": "Billetera doble cierre chica",
+   "images":["bdcc.jpeg","bdcc1.jpeg"],
+  "price": 9500,
+  "category": "Marroquinería",
+  "description": "Billetera doble cierre, minimalista, ligera y práctica para llevar lo esencial."
+},
+{
+  "id": 208,
+  "name": "Cartera tres cierres",
+  "images":["b3c.jpeg","b3c1.jpeg"],
+  "price": 13900,
+  "category": "Marroquinería",
+  "description": "Cartera de tres cierres elegante de cuero sintético, resistente y duradera."
+},
+{
+  "id": 209,
+  "name": "Mochila selección Argentina",
+  "image":"mochilaafa.jpeg",
+  "price": 14900,
+  "category": "Marroquinería",
+  "description": "Mochila de la Selección Argentina, ideal para la escuela o para tus salidas. Cómoda y resistente,"
+},
+{
+  "id": 210,
+  "name": "Mochila Adidas",
+   "image":"adidas.jpeg",
+
+  "price": 14900,
+  "category": "Marroquinería",
+  "description": "Mochila Adidas, resistente y cómoda, perfecta para la escuela, el gym o tus actividades diarias. Diseño moderno y funcional."
+},
+{
+  "id": 211,
+  "name": "Mochila River Plate",
+  "image":"riber.jpeg",
+
+  "price": 14900,
+  "category": "Marroquinería",
+  "description": "Mochila de River Plate, ideal para acompañarte en la escuela o en tus salidas. Con los colores y escudo del club que llevás en el corazón."
+},
+{
+  "id": 212,
+  "name": "Mochila Nike",
+    "image":"nike.jpeg",
+  "price": 14900,
+  "category": "Marroquineria",
+  "description": "Mochila Nike resistente y ligera, perfecta para el día a día o para el deporte. Amplio espacio, compartimentos organizadores y diseño moderno con el logo icónico."
+},
+{
+  "id": 213,
+  "name": "Riñoneras importadas",
+  "images":["riño.jpeg","riño1.jpeg","riño2.jpeg"],
+  "price": 10500,
+  "category": "Marroquinería",
+  "description": "Riñonera importada, práctica y versátil, ideal para llevar tus objetos personales de forma segura y cómoda. Diseño moderno y compacto."
+},
+{
+  "id": 214,
+  "name": "Relojes",
+    "images":["1.jpeg","2.jpeg","3.jpeg","4.jpeg","7.jpeg","8.jpeg","9.jpeg","10.jpeg"],
+  "price": 7900,
+  "category": "Relojes",
+  "description": "Reloj moderno y funcional, ideal para cualquier ocasión. Precisión en la medición del tiempo, diseño elegante y cómodo de usar."
+},
+{
+  "id": 215,
+  "name": "Bandoleras",
+  "image":"bandoleras.jpeg",
+  "price": 9900,
+  "category": "Marroquinería",
+  "description": "Bandolera práctica y con estilo, perfecta para llevar tus cosas esenciales cómodamente. Diseño resistente y versátil para el día a día."
+},
+{
+  "id": 216,
+  "name": "Perfumes hombre",
+  "images":["212.jpg","scandal.jpeg","chhc.jpeg"],
+  "price": 14500,
+  "category": "Perfumes",
+  "description": "Perfume para hombre, con fragancia intensa y duradera. Ideal para uso diario o ocasiones especiales. "
+},
+{
+  "id": 217,
+  "name": "Perfumes mujer",
+   "images":["purexs.jpg","invictus.jpeg","dior.jpeg"],
+  "price": 14500,
+  "category": "Perfumes",
+  "description": "Perfumes para mujer, con fragancia intensa y duradera. Ideal para uso diario o ocasiones especiales."
+},
+{
+  "id": 218,
+  "name": "Set tintura",
+  "image":"st.jpeg",
+  "price": 4900,
+  "category": "Varios",
+  "description": "Set de tintura, completo para teñir el cabello en casa de manera fácil y uniforme. Incluye todo lo necesario para un acabado profesional."
+},
+{
+  "id": 219,
+  "name": "Pincel tintura",
+    "image":"pincel.jpeg",
+
+  "price": 990,
+  "category": "Varios",
+  "description": "Pincel para aplicar tintura de manera precisa, ideal para raíces y retoques, asegurando una distribución uniforme del color."
+},
+{
+  "id": 220,
+  "name": "Set manicura",
+  "images":["mani.jpeg", "mani1.jpeg"],
+  "price": 3490,
+  "category": "Varios",
+  "description": "Set de manicura completo, ideal para cuidado y estilizado de uñas en casa, incluye herramientas básicas y seguras para uñas y cutículas."
+},
+{
+  "id": 221,
+  "name": "Brochesitos capibara",
+  "image":"capibara.jpeg",
+  "price": 590,
+  "category": "Broches",
+  "minQuantity":"10",
+  "description": "Broches de capibara, divertidos y coloridos, perfectos para sujetar el pelo o decorar accesorios de forma práctica y original."
+},
+{
+  "id": 222,
+  "name": "Cartuchera capibara de colitas/terminales de trenzas",
+  "images":["capi.jpeg","termi.jpeg"],
+  "price": 1490,
+  "category": "Accesorios para el pelo",
+  "description": "Cartuchera Capibara, ideal para guardar colitas o terminales de trenzas, práctica y con diseño divertido para el día a día."
+},
+{
+  "id": 223,
+  "name": "Cadenitas doradas con dije",
+  "image":"cdd.jpeg",
+  "price": 2190,
+  "category": "Collares",
+  "description": "Cadenitas doradas con dije, delicadas y elegantes, perfectas para complementar cualquier look con un toque sofisticado."
+},
+{
+  "id": 224,
+  "name": "Billeteras chicas 1 cierre",
+  "images":["bcunc.jpeg","+.jpeg"],
+  "price": 6490 ,
+  "category": "Marroquinería",
+  "description": "Billetera elegante con un cierre, ideal para regalar."
+},
+{
+  "id": 225,
+  "name": "Billetera chica dos cierres",
+  "images":["bcdosc.jpeg","}.jpeg"],
+  "price": 9490,
+  "category": "Marroquinería",
+  "description": "Billetera chiquita con dos cierres para guardar tus cosas con la mejor comodidad."
+},
+{
+  "id": 226,
+  "name": "Billeteras simples",
+   "images":["fa.jpeg","fs.jpeg","fz"],
+  "price": 7490,
+  "category": "Marroquinería",
+  "description": "Billeteras simples elegantes y comodas para guardar tus cosas."
+},
+
+{
+  "id": 228,
+  "name": "Mochilas de cuero",
+  "image":"mochi.jpeg",
+  "price": 12490,
+  "category": "Marroquinería",
+  "description": "Mochila de cuero compacta y práctica"
+},
+{
+  "id": 229,
+  "name": "Bolsitos",
+  "image":"bolsitos.jpeg",
+  "price": 10490,
+  "category": "Marroquinería",
+  "description": "Bolsitos para llevar con vos con el mejor estilo, cómodos y prácticos."
+}
+
+
+]
+
+
+
+
