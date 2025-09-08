@@ -665,11 +665,11 @@
 {
   "id": 50,
   "name": "Pompón para el pelo",
-  "price": 1000,
+  "price": 6000,
   "category": "Accesorios para el pelo",
-  "minQuantity": "6",
+  "minQuantity": "16",
   "image": "pomponpelo.jpeg",
-  "description": "Pompones para lucir el pelo. Minimo 6 unidades."
+  "description": "Pompones para lucir el pelo. Incluye 6 unidades."
 },
 {
   "id": 51,
@@ -1085,11 +1085,11 @@
 {
   "id": 94,
   "name": "Tira de hebillas y agarrapelusas",
-  "price": 990,
+  "price": 8910,
   "category": "Accesorios para el pelo",
   "image": "agarrapelisa.jpeg",
-  "minQuantity": "9",
-  "description": "Tiras de hebillas y agarrapelusas de colores para combinar con tu estilo. Minimo 9 unidades"
+  "minQuantity": "1",
+  "description": "Tiras de hebillas y agarrapelusas de colores para combinar con tu estilo. Incluye 9 unidades"
 },
 {
   "id": 95,
@@ -1619,11 +1619,11 @@
   {
     "id": 142,
     "name": "Tira de hebillas",
-    "price": 1200,
+    "price": 12000,
     "category": "Accesorios para el pelo",
     "images": ["tdh.jpeg","tdh1.jpeg","tdh2.jpeg","tdh3.jpeg"],
-    "minQuantity": "10",
-    "description": "Tira de hebillas, práctica y versátil para crear o ajustar accesorios. 10 Unidades"
+    "minQuantity": "1",
+    "description": "Tira de hebillas, práctica y versátil para crear o ajustar accesorios. Incluye 10 Unidades"
   },
   {
     "id": 143,
