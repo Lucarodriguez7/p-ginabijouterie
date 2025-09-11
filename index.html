@@ -488,6 +488,7 @@ function addToCart(productId, quantity, variantId = null) {
     const product = products.find(p => p.id === productId);
     let name = product.name;
     let price = product.price;
+    
 
     if (variantId) {
         const variant = product.variants.find(v => v.id === variantId);
@@ -503,7 +504,8 @@ function addToCart(productId, quantity, variantId = null) {
             variantId: variantId,
             name: name,
             price: price,
-            quantity: quantity
+            quantity: quantity,
+             image: product.image || (product.images ? product.images[0] : '') // <-- línea nueva
         });
     }
 
@@ -523,6 +525,7 @@ function updateCart() {
         cartItems.innerHTML = `
             <div class="text-center py-8 text-amber-700">
                 <i class="fas fa-shopping-bag text-4xl mb-2"></i>
+                
                 <p>Tu carrito está vacío</p>
             </div>
         `;
@@ -621,36 +624,49 @@ function init() {
         cartSidebar.classList.add('translate-x-full');
         document.body.style.overflow = 'auto';
     }
+checkoutForm.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-    checkoutForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+    if (cart.length === 0) {
+        alert('Tu carrito está vacío');
+        return;
+    }
 
-        if (cart.length === 0) {
-            alert('Tu carrito está vacío');
-            return;
-        }
+    // Capturar todos los campos
+    const name = document.getElementById('customerName').value;
+    const dni = document.getElementById('customerDNI').value;
+    const phone = document.getElementById('customerPhone').value;
+    const province = document.getElementById('customerProvince').value;
+    const city = document.getElementById('customerCity').value;
+    const postalCode = document.getElementById('customerPostalCode').value;
+    const address = document.getElementById('customerAddress').value;
 
-        const name = document.getElementById('customerName').value;
-        const address = document.getElementById('customerAddress').value;
+    let message = `Hola, quiero hacer un pedido:\n\n` +
+                  `*Nombre:* ${name}\n` +
+                  `*DNI:* ${dni}\n` +
+                  `*Teléfono:* ${phone}\n` +
+                  `*Provincia:* ${province}\n` +
+                  `*Ciudad:* ${city}\n` +
+                  `*Código postal:* ${postalCode}\n` +
+                  `*Dirección:* ${address}\n\n` +
+                  `*Pedido:*\n`;
 
-        let message = `Hola, quiero hacer un pedido:\n\n*Nombre:* ${name}\n*Dirección:* ${address}\n*Pedido:*\n`;
-
-        let total = 0;
-        cart.forEach(item => {
-            message += `- ${item.name} (${item.quantity} x $${item.price}) = $${item.quantity * item.price}\n`;
-            total += item.quantity * item.price;
-        });
-
-        message += `\n*Total:* $${total}\n\n¡Gracias!`;
-
-        const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/5492236246400?text=${encodedMessage}`, '_blank');
-
-        checkoutForm.reset();
-        cart = [];
-        updateCart();
-        closeCart();
+    let total = 0;
+    cart.forEach(item => {
+        message += `- ${item.name} (${item.quantity} x $${item.price}) = $${item.quantity * item.price}\n`;
+        total += item.quantity * item.price;
     });
+
+    message += `\n*Total:* $${total}\n\n¡Gracias!`;
+
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://wa.me/5492236246400?text=${encodedMessage}`, '_blank');
+
+    checkoutForm.reset();
+    cart = [];
+    updateCart();
+    closeCart();
+});
 
     categoryFilter.addEventListener('change', filterProducts);
     searchInput.addEventListener('input', filterProducts);
