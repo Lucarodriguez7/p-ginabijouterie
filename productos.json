@@ -2472,15 +2472,70 @@
   "price": 10500,
   "image":"bmdc.jpeg",
   "category": "Marroquineria",
-  "description": "Billetera de mujer con doble cierre, elegante y práctica, ideal para organizar billetes, tarjetas y monedas de forma segura y cómoda."
+  "description": "Billetera de mujer con doble cierre, elegante y práctica, ideal para organizar billetes, tarjetas y monedas de forma segura y cómoda.",
+   "variants": [
+    {
+      "id": 101112,
+      "color": "Rojo",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1011131,
+      "color": "Rosa",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10111312,
+      "color": "Plateado",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    }, {
+      "id": 10111313,
+      "color": "Dorado",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    }, {
+      "id": 10111314,
+      "color": "Celeste",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    },
+  {
+      "id": 10111317,
+      "color": "Negro",
+      "image": "bmdc.jpeg",
+      "minQuantity": 1
+    }]
 },
+
 {
   "id": 206,
   "name": "Billetera de mujer un cierre",
   "image":"bmdc1.jpeg",
   "price": 9500,
   "category": "Marroquineria",
-  "description": "Billetera con cierre seguro, perfecta para mantener tus pertenencias organizadas."
+  "description": "Billetera con cierre seguro, perfecta para mantener tus pertenencias organizadas.",
+   "variants": [
+    {
+      "id": 1000000000,
+      "color": "Negro",
+      "image": "bmdc1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 100000000000,
+      "color": "Rosa",
+      "image": "bmdc1.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10000000000000,
+      "color": "Negro con perlas negras",
+      "image": "bmdc1.jpeg",
+      "minQuantity": 1
+    }]
 },
 {
   "id": 207,
@@ -2488,7 +2543,50 @@
    "images":["bdcc.jpeg","bdcc1.jpeg"],
   "price": 9500,
   "category": "Marroquineria",
-  "description": "Billetera doble cierre, minimalista, ligera y práctica para llevar lo esencial."
+  "description": "Billetera doble cierre, minimalista, ligera y práctica para llevar lo esencial.",
+   "variants": [
+    {
+      "id": 1000000000000000000,
+      "color": "Negro",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 10000000000000000,
+      "color": "Beige",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10000000000000000000,
+      "color": "Rojo",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 1100000000000000000,
+      "color": "Fucsia",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 10100000000000000,
+      "color": "Verde pastel",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10010000000000000000,
+      "color": "Blanco cremita",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10011000000000000000,
+      "color": "Lila",
+      "image": "bdcc1.jpeg",
+      "minQuantity": 1
+    }]
 },
 {
   "id": 208,
@@ -2615,10 +2713,65 @@
 {
   "id": 215,
   "name": "Bandoleras",
-  "image":"bandoleras.jpeg",
+  "images":["bandoleras.jpeg","bandoleras1.jpeg"],
   "price": 9900,
   "category": "Marroquineria",
-  "description": "Bandolera práctica y con estilo, perfecta para llevar tus cosas esenciales cómodamente. Diseño resistente y versátil para el día a día."
+  "description": "Bandolera práctica y con estilo, perfecta para llevar tus cosas esenciales cómodamente. Diseño resistente y versátil para el día a día.",
+  "variants": [
+     {
+      "id": 8187,
+      "color": "Lacoste",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8184,
+      "color": "Jordan",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8183,
+      "color": "Dior",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8182,
+      "color": "Nike",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8188,
+      "color": "Adidas",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8189,
+      "color": "Calvin Klein",
+      "image": "bandoleras.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8190,
+      "color": "River",
+      "image": "bandoleras1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8191,
+      "color": "Boca",
+      "image": "bandoleras1.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 8192,
+      "color": "Argentina",
+      "image": "bandoleras1.jpeg",
+      "minQuantity": 1
+    }]
 },
 {
   "id": 216,
@@ -2865,7 +3018,81 @@
   "images":["bcunc.jpeg","+.jpeg"],
   "price": 6490 ,
   "category": "Marroquineria",
-  "description": "Billetera elegante con un cierre, ideal para regalar."
+  "description": "Billetera elegante con un cierre, ideal para regalar.",
+   "variants": [
+    {
+      "id": 1000001110000000,
+      "color": "Negro",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1000121200000111000,
+      "color": "Gris",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 109011100,
+      "color": "Verde",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 1991233131200000,
+      "color": "Azul",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 10189900,
+      "color": "Marrón",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 1019310000,
+      "color": "Naranja",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 1019410,
+      "color": "Blanco",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    }
+  ,
+   {
+      "id": 10193731100,
+      "color": "Fucsia",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 19382330,
+      "color": "Rosa",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1223431312000,
+      "color": "Lila",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 113989900,
+      "color": "Rojo",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 191920310010,
+      "color": "Beige",
+      "image": "+.jpeg",
+      "minQuantity": 1
+    }]
 },
 {
   "id": 225,
@@ -2873,7 +3100,44 @@
   "images":["bcdosc.jpeg","}.jpeg"],
   "price": 9490,
   "category": "Marroquineria",
-  "description": "Billetera chiquita con dos cierres para guardar tus cosas con la mejor comodidad."
+  "description": "Billetera chiquita con dos cierres para guardar tus cosas con la mejor comodidad.",
+   "variants": [
+    {
+      "id": 10008000,
+      "color": "Rosa",
+      "image": "}.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 1001111000,
+      "color": "Gris",
+      "image": "}.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 100038800,
+      "color": "Rosa pastel",
+      "image": "}.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 11131200000,
+      "color": "Blanco",
+      "image": "bcunc.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 100380121212300,
+      "color": "Marrón",
+      "image": "}.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 10001011444000,
+      "color": "Negro",
+      "image": "}.jpeg",
+      "minQuantity": 1
+    }]
 },
 {
   "id": 226,
@@ -2881,7 +3145,116 @@
    "images":["fa.jpeg","fs.jpeg","fz.jpeg"],
   "price": 7490,
   "category": "Marroquineria",
-  "description": "Billeteras simples elegantes y comodas para guardar tus cosas."
+  "description": "Billeteras simples elegantes y comodas para guardar tus cosas.",
+   "variants": [
+    {
+      "id": 30090,
+      "color": "Rosa",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 30091,
+      "color": "Gris",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 30092,
+      "color": "Rosa pastel",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 30093,
+      "color": "Blanco",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 30094,
+      "color": "Marrón",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 30097,
+      "color": "Negro",
+      "image": "fa.jpeg",
+      "minQuantity": 1
+    },
+     {
+      "id": 31090,
+      "color": "Rosa Brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 31091,
+      "color": "Celeste brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31092,
+      "color": "Gris brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31093,
+      "color": "Dorado brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 31094,
+      "color": "Azul brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31097,
+      "color": "Negro brillante",
+      "image": "fs.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31092,
+      "color": "Rojo",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31093,
+      "color": "Negro",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 31094,
+      "color": "Rosa",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    },
+   {
+      "id": 31097,
+      "color": "Lila",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    },
+     {
+      "id": 31090,
+      "color": "Marron",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    },
+    {
+      "id": 31091,
+      "color": "Beige",
+      "image": "fz.jpeg",
+      "minQuantity": 1
+    }]
 },
 
 {
